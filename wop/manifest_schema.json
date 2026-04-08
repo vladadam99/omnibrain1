@@ -1,0 +1,115 @@
+{
+  "type": "object",
+  "required": ["candidate_id", "origin", "code_fingerprints", "engine_attributes", "evaluation", "governor_decision"],
+  "properties": {
+    "candidate_id": { "type": "string" },
+    "origin": {
+      "type": "object",
+      "required": ["bob_run_id", "trial_id", "created_utc"],
+      "properties": {
+        "bob_run_id": { "type": "string" },
+        "trial_id": { "type": "string" },
+        "created_utc": { "type": "string" }
+      }
+    },
+    "code_fingerprints": {
+      "type": "object",
+      "required": ["agents", "engine"],
+      "properties": {
+        "agents": { "type": "array", "items": {
+          "type": "object",
+          "required": ["name", "patch_sha", "diff_path"],
+          "properties": {
+            "name": { "type": "string" },
+            "patch_sha": { "type": "string" },
+            "diff_path": { "type": "string" }
+          } } },
+        "engine": { "type": "array", "items": {
+          "type": "object",
+          "required": ["target", "patch_sha", "diff_path"],
+          "properties": {
+            "target": { "type": "string" },
+            "patch_sha": { "type": "string" },
+            "diff_path": { "type": "string" }
+          } } }
+      }
+    },
+    "engine_attributes": {
+      "type": "object",
+      "required": ["json_path", "sha"],
+      "properties": {
+        "json_path": { "type": "string" },
+        "sha": { "type": "string" }
+      }
+    },
+    "training_recipe": {
+      "type": "object",
+      "required": ["recipe_used", "hash"],
+      "properties": {
+        "recipe_used": { "type": "object" },
+        "hash": { "type": "string" }
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "required": ["thirty_day_passes", "paper_trial"],
+      "properties": {
+        "thirty_day_passes": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["window", "summary_path", "sha", "key_metrics"],
+            "properties": {
+              "window": { "type": "string" },
+              "summary_path": { "type": "string" },
+              "sha": { "type": "string" },
+              "key_metrics": {
+                "type": "object",
+                "required": ["pnl_total","winrate","profit_factor","max_drawdown","sharpe_like"],
+                "properties": {
+                  "pnl_total": { "type": "number" },
+                  "winrate": { "type": "number" },
+                  "profit_factor": { "type": "number" },
+                  "max_drawdown": { "type": "number" },
+                  "sharpe_like": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "paper_trial": {
+          "type": "object",
+          "required": ["duration_days", "summary_path", "trades_path", "sha_summary", "sha_trades", "key_metrics"],
+          "properties": {
+            "duration_days": { "type": "integer" },
+            "summary_path": { "type": "string" },
+            "trades_path": { "type": "string" },
+            "sha_summary": { "type": "string" },
+            "sha_trades": { "type": "string" },
+            "key_metrics": {
+              "type": "object",
+              "required": ["pnl_total","winrate","profit_factor","trades"],
+              "properties": {
+                "pnl_total": { "type": "number" },
+                "winrate": { "type": "number" },
+                "profit_factor": { "type": "number" },
+                "trades": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "governor_decision": {
+      "type": "object",
+      "required": ["status","reason","requested_by"],
+      "properties": {
+        "status": { "type": "string", "enum": ["awaiting_approval","approved","rejected"] },
+        "reason": { "type": "string" },
+        "requested_by": { "type": "string" },
+        "approved_by": { "type": ["string","null"] }
+      }
+    }
+  }
+}

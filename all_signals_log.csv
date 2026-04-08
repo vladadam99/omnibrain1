@@ -1,0 +1,850 @@
+2025-07-03T16:16:20.771460,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:16:20.771460,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:16:20.771460,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:16:22.172945,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:16:22.172945,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:16:22.172945,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:16:24.139689,PORTALUSDT,agent_qfps,open,buy,0.861,BUY,0.6657500000000001,strong,
+2025-07-03T16:16:24.139689,PORTALUSDT,mean_reversion_agent,open,BUY,0.002,BUY,0.6657500000000001,strong,Z-score low: -1.50
+2025-07-03T16:16:24.139689,PORTALUSDT,momentum_agent,open,SELL,0.04,BUY,0.6657500000000001,strong,Negative momentum breakdown
+2025-07-03T16:16:24.139689,PORTALUSDT,pulse_agent,open,SELL,0.45,BUY,0.6657500000000001,strong,Downward pulse momentum
+2025-07-03T16:16:24.139689,PORTALUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6657500000000001,strong,RSI(2) Oversold
+2025-07-03T16:16:24.139689,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.6657500000000001,strong,Pullback in Uptrend
+2025-07-03T16:16:24.139689,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.6657500000000001,strong,
+2025-07-03T16:16:28.702970,FUNUSDT,agent_qfps,open,buy,0.72,BUY,0.4425,weak,
+2025-07-03T16:16:28.702970,FUNUSDT,momentum_agent,open,BUY,0.04,BUY,0.4425,weak,Positive momentum breakout
+2025-07-03T16:16:28.702970,FUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.4425,weak,Upward pulse momentum
+2025-07-03T16:16:28.704479,FUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.4425,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:16:28.704479,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.4425,weak,
+2025-07-03T16:16:33.106727,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.38666666666666666,weak,
+2025-07-03T16:16:33.106727,MOODENGUSDT,pulse_agent,open,BUY,0.16,BUY,0.38666666666666666,weak,Upward pulse momentum
+2025-07-03T16:16:33.106727,MOODENGUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.38666666666666666,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:16:33.106727,MOODENGUSDT,rsi_2_agent,open,SELL,0.94,BUY,0.38666666666666666,weak,RSI(2) Overbought
+2025-07-03T16:16:33.106727,MOODENGUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.38666666666666666,weak,Bounce in Downtrend
+2025-07-03T16:16:33.106727,MOODENGUSDT,vwap_agent,buy,long,0.16264981079985058,BUY,0.38666666666666666,weak,
+2025-07-03T16:16:36.716013,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:16:36.716013,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:16:36.716013,SKYAIUSDT,pulse_agent,open,BUY,0.3,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:16:36.716013,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:16:36.716013,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:16:36.716013,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:16:36.716013,SKYAIUSDT,vwap_agent,sell,short,0.26037006719723577,SELL,0.9333333333333332,strong,
+2025-07-03T16:16:42.167455,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.4625,weak,
+2025-07-03T16:16:42.168456,GUNUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.4625,weak,BBands Short
+2025-07-03T16:16:42.168456,GUNUSDT,breakout_agent,open,BUY,0.77,BUY,0.4625,weak,High Breakout
+2025-07-03T16:16:42.168456,GUNUSDT,cosmic_agent,buy,buy,1.0,BUY,0.4625,weak,Confluence (Trend+RSI+Breakout+Volume): 4/4
+2025-07-03T16:16:42.168456,GUNUSDT,mean_reversion_agent,open,SELL,0.396,BUY,0.4625,weak,Z-score high: 2.29
+2025-07-03T16:16:42.168456,GUNUSDT,momentum_agent,open,BUY,0.08,BUY,0.4625,weak,Positive momentum breakout
+2025-07-03T16:16:42.168456,GUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.4625,weak,Upward pulse momentum
+2025-07-03T16:16:42.168456,GUNUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.4625,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:16:42.168456,GUNUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.4625,weak,RSI(2) Overbought
+2025-07-03T16:16:42.168456,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.4625,weak,
+2025-07-03T16:16:45.578896,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:16:45.578896,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:16:45.578896,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:16:46.950578,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:16:46.950578,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:16:46.950578,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:16:48.447746,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:16:48.447746,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:16:48.447746,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:17:21.629464,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:17:21.629464,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:17:21.629464,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:17:22.995146,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:17:22.995146,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:17:22.995146,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:17:24.737841,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.7922,strong,
+2025-07-03T16:17:24.737841,PORTALUSDT,bollinger_bands_agent,open,BUY,0.8,BUY,0.7922,strong,BBands Long
+2025-07-03T16:17:24.737841,PORTALUSDT,mean_reversion_agent,open,BUY,0.361,BUY,0.7922,strong,Z-score low: -2.22
+2025-07-03T16:17:24.737841,PORTALUSDT,momentum_agent,open,SELL,0.05,BUY,0.7922,strong,Negative momentum breakdown
+2025-07-03T16:17:24.737841,PORTALUSDT,pulse_agent,open,SELL,0.79,BUY,0.7922,strong,Downward pulse momentum
+2025-07-03T16:17:24.737841,PORTALUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.7922,strong,Warp dump signal
+2025-07-03T16:17:24.737841,PORTALUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.7922,strong,RSI(2) Oversold
+2025-07-03T16:17:24.737841,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.7922,strong,Pullback in Uptrend
+2025-07-03T16:17:24.737841,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.7922,strong,
+2025-07-03T16:17:26.511385,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.5125,weak,
+2025-07-03T16:17:26.511385,FUNUSDT,momentum_agent,open,BUY,0.04,BUY,0.5125,weak,Positive momentum breakout
+2025-07-03T16:17:26.511385,FUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.5125,weak,Upward pulse momentum
+2025-07-03T16:17:26.511385,FUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.5125,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:17:26.511385,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.5125,weak,
+2025-07-03T16:17:28.303801,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.4625,weak,
+2025-07-03T16:17:28.303801,GUNUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.4625,weak,BBands Short
+2025-07-03T16:17:28.303801,GUNUSDT,breakout_agent,open,BUY,0.77,BUY,0.4625,weak,High Breakout
+2025-07-03T16:17:28.303801,GUNUSDT,cosmic_agent,buy,buy,1.0,BUY,0.4625,weak,Confluence (Trend+RSI+Breakout+Volume): 4/4
+2025-07-03T16:17:28.303801,GUNUSDT,mean_reversion_agent,open,SELL,0.418,BUY,0.4625,weak,Z-score high: 2.34
+2025-07-03T16:17:28.303801,GUNUSDT,momentum_agent,open,BUY,0.08,BUY,0.4625,weak,Positive momentum breakout
+2025-07-03T16:17:28.303801,GUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.4625,weak,Upward pulse momentum
+2025-07-03T16:17:28.303801,GUNUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.4625,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:17:28.303801,GUNUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.4625,weak,RSI(2) Overbought
+2025-07-03T16:17:28.303801,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.4625,weak,
+2025-07-03T16:17:30.055485,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:17:30.055485,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:17:30.055485,SKYAIUSDT,pulse_agent,open,BUY,0.28,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:17:30.055485,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:17:30.055485,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:17:30.055485,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:17:30.055485,SKYAIUSDT,vwap_agent,sell,short,0.2679571860150571,SELL,0.9333333333333332,strong,
+2025-07-03T16:17:31.801887,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.535,weak,
+2025-07-03T16:17:31.801887,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.535,weak,Z-score neutral
+2025-07-03T16:17:31.801887,MOODENGUSDT,pulse_agent,open,BUY,0.07,BUY,0.535,weak,Upward pulse momentum
+2025-07-03T16:17:31.801887,MOODENGUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.535,weak,Bounce in Downtrend
+2025-07-03T16:17:31.801887,MOODENGUSDT,vwap_agent,buy,long,0.1339946565301825,BUY,0.535,weak,
+2025-07-03T16:17:33.321476,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:17:33.321476,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:17:33.321476,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:17:34.673355,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:17:34.673355,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:17:34.673355,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:17:36.192405,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:17:36.192405,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:17:36.192405,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:09.571740,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:09.571740,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:09.571740,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:11.081995,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:11.081995,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:11.081995,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:12.943848,PORTALUSDT,agent_qfps,open,buy,0.925,BUY,0.8082,strong,
+2025-07-03T16:18:12.943848,PORTALUSDT,bollinger_bands_agent,open,BUY,0.8,BUY,0.8082,strong,BBands Long
+2025-07-03T16:18:12.943848,PORTALUSDT,mean_reversion_agent,open,BUY,0.516,BUY,0.8082,strong,Z-score low: -2.53
+2025-07-03T16:18:12.943848,PORTALUSDT,momentum_agent,open,SELL,0.05,BUY,0.8082,strong,Negative momentum breakdown
+2025-07-03T16:18:12.943848,PORTALUSDT,pulse_agent,open,SELL,0.98,BUY,0.8082,strong,Downward pulse momentum
+2025-07-03T16:18:12.943848,PORTALUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.8082,strong,Warp dump signal
+2025-07-03T16:18:12.943848,PORTALUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.8082,strong,RSI(2) Oversold
+2025-07-03T16:18:12.943848,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.8082,strong,Pullback in Uptrend
+2025-07-03T16:18:12.943848,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.8082,strong,
+2025-07-03T16:18:14.806974,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.5125,weak,
+2025-07-03T16:18:14.806974,FUNUSDT,momentum_agent,open,BUY,0.04,BUY,0.5125,weak,Positive momentum breakout
+2025-07-03T16:18:14.806974,FUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.5125,weak,Upward pulse momentum
+2025-07-03T16:18:14.806974,FUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.5125,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:18:14.806974,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.5125,weak,
+2025-07-03T16:18:16.842076,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.46,weak,
+2025-07-03T16:18:16.842076,GUNUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.46,weak,BBands Short
+2025-07-03T16:18:16.842076,GUNUSDT,breakout_agent,open,BUY,0.77,BUY,0.46,weak,High Breakout
+2025-07-03T16:18:16.842076,GUNUSDT,cosmic_agent,buy,buy,0.75,BUY,0.46,weak,Confluence (Trend+RSI+Breakout+Volume): 3/4
+2025-07-03T16:18:16.842076,GUNUSDT,mean_reversion_agent,open,SELL,0.298,BUY,0.46,weak,Z-score high: 2.10
+2025-07-03T16:18:16.842076,GUNUSDT,momentum_agent,open,BUY,0.07,BUY,0.46,weak,Positive momentum breakout
+2025-07-03T16:18:16.842076,GUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.46,weak,Upward pulse momentum
+2025-07-03T16:18:16.842076,GUNUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.46,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:18:16.842076,GUNUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.46,weak,RSI(2) Overbought
+2025-07-03T16:18:16.842076,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.46,weak,
+2025-07-03T16:18:19.618043,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:18:19.618043,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:18:19.618043,SKYAIUSDT,pulse_agent,open,BUY,0.25,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:18:19.618043,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:18:19.618043,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:18:19.618043,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:18:19.618043,SKYAIUSDT,vwap_agent,sell,short,0.27556210938508235,SELL,0.9333333333333332,strong,
+2025-07-03T16:18:21.780616,MOODENGUSDT,agent_qfps,open,buy,1.0,,0,none,
+2025-07-03T16:18:21.781617,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,,0,none,Z-score neutral
+2025-07-03T16:18:21.781617,MOODENGUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T16:18:21.781617,MOODENGUSDT,vwap_agent,buy,long,0.09933158760324218,,0,none,
+2025-07-03T16:18:23.234919,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:23.234919,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:23.234919,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:24.604605,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:24.604605,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:24.604605,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:25.980066,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:25.980066,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:25.980066,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:18:58.718936,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:18:58.718936,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:18:58.718936,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:00.079788,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:00.079788,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:00.079788,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:02.395428,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.8183999999999999,strong,
+2025-07-03T16:19:02.395428,PORTALUSDT,bollinger_bands_agent,open,BUY,0.8,BUY,0.8183999999999999,strong,BBands Long
+2025-07-03T16:19:02.395428,PORTALUSDT,mean_reversion_agent,open,BUY,0.492,BUY,0.8183999999999999,strong,Z-score low: -2.48
+2025-07-03T16:19:02.395428,PORTALUSDT,momentum_agent,open,SELL,0.05,BUY,0.8183999999999999,strong,Negative momentum breakdown
+2025-07-03T16:19:02.395428,PORTALUSDT,pulse_agent,open,SELL,0.95,BUY,0.8183999999999999,strong,Downward pulse momentum
+2025-07-03T16:19:02.395428,PORTALUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.8183999999999999,strong,Warp dump signal
+2025-07-03T16:19:02.395428,PORTALUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.8183999999999999,strong,RSI(2) Oversold
+2025-07-03T16:19:02.395428,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.8183999999999999,strong,Pullback in Uptrend
+2025-07-03T16:19:02.395428,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.8183999999999999,strong,
+2025-07-03T16:19:04.223520,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.5125,weak,
+2025-07-03T16:19:04.223520,FUNUSDT,momentum_agent,open,BUY,0.04,BUY,0.5125,weak,Positive momentum breakout
+2025-07-03T16:19:04.223520,FUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.5125,weak,Upward pulse momentum
+2025-07-03T16:19:04.223520,FUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.5125,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:19:04.223520,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.5125,weak,
+2025-07-03T16:19:06.114987,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:19:06.114987,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:19:06.114987,SKYAIUSDT,pulse_agent,open,BUY,0.35,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:19:06.114987,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:19:06.114987,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:19:06.114987,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:19:06.114987,SKYAIUSDT,vwap_agent,sell,short,0.24509680774306988,SELL,0.9333333333333332,strong,
+2025-07-03T16:19:08.481141,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.4625,weak,
+2025-07-03T16:19:08.481141,GUNUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.4625,weak,BBands Short
+2025-07-03T16:19:08.481141,GUNUSDT,breakout_agent,open,BUY,0.77,BUY,0.4625,weak,High Breakout
+2025-07-03T16:19:08.481141,GUNUSDT,cosmic_agent,buy,buy,0.75,BUY,0.4625,weak,Confluence (Trend+RSI+Breakout+Volume): 3/4
+2025-07-03T16:19:08.481141,GUNUSDT,mean_reversion_agent,open,SELL,0.274,BUY,0.4625,weak,Z-score high: 2.05
+2025-07-03T16:19:08.481141,GUNUSDT,momentum_agent,open,BUY,0.07,BUY,0.4625,weak,Positive momentum breakout
+2025-07-03T16:19:08.481141,GUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.4625,weak,Upward pulse momentum
+2025-07-03T16:19:08.481141,GUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.4625,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:19:08.481141,GUNUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.4625,weak,RSI(2) Overbought
+2025-07-03T16:19:08.481141,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.4625,weak,
+2025-07-03T16:19:09.990590,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:09.990590,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:09.990590,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:12.362610,MOODENGUSDT,agent_qfps,open,buy,1.0,,0,none,
+2025-07-03T16:19:12.362610,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,,0,none,Z-score neutral
+2025-07-03T16:19:12.362610,MOODENGUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T16:19:12.362610,MOODENGUSDT,vwap_agent,buy,long,0.09266558478810792,,0,none,
+2025-07-03T16:19:13.690104,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:13.690104,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:13.690104,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:15.085231,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:15.085231,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:15.085231,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:47.925014,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:47.925014,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:47.925014,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:49.560586,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:49.560586,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:49.560586,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:51.346155,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.7866,strong,
+2025-07-03T16:19:51.346155,PORTALUSDT,bollinger_bands_agent,open,BUY,0.8,BUY,0.7866,strong,BBands Long
+2025-07-03T16:19:51.346155,PORTALUSDT,mean_reversion_agent,open,BUY,0.333,BUY,0.7866,strong,Z-score low: -2.17
+2025-07-03T16:19:51.346155,PORTALUSDT,momentum_agent,open,SELL,0.04,BUY,0.7866,strong,Negative momentum breakdown
+2025-07-03T16:19:51.346155,PORTALUSDT,pulse_agent,open,SELL,0.76,BUY,0.7866,strong,Downward pulse momentum
+2025-07-03T16:19:51.346155,PORTALUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.7866,strong,Warp dump signal
+2025-07-03T16:19:51.346155,PORTALUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.7866,strong,RSI(2) Oversold
+2025-07-03T16:19:51.346155,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.7866,strong,Pullback in Uptrend
+2025-07-03T16:19:51.346155,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.7866,strong,
+2025-07-03T16:19:53.196646,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.51,weak,
+2025-07-03T16:19:53.196646,FUNUSDT,momentum_agent,open,BUY,0.03,BUY,0.51,weak,Positive momentum breakout
+2025-07-03T16:19:53.196646,FUNUSDT,pulse_agent,open,BUY,1.0,BUY,0.51,weak,Upward pulse momentum
+2025-07-03T16:19:53.196646,FUNUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.51,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:19:53.196646,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.51,weak,
+2025-07-03T16:19:54.901150,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:19:54.901150,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:19:54.901150,SKYAIUSDT,pulse_agent,open,BUY,0.38,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:19:54.901150,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:19:54.901150,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:19:54.901150,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:19:54.901150,SKYAIUSDT,vwap_agent,sell,short,0.23745532836113206,SELL,0.9333333333333332,strong,
+2025-07-03T16:19:56.341327,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:56.341327,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:56.341327,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:57.891842,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:57.891842,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:57.891842,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:19:59.236680,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:19:59.236680,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:19:59.236680,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:01.063220,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.515,weak,
+2025-07-03T16:20:01.063220,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.515,weak,Z-score neutral
+2025-07-03T16:20:01.063220,MOODENGUSDT,pulse_agent,open,BUY,0.03,BUY,0.515,weak,Upward pulse momentum
+2025-07-03T16:20:01.063220,MOODENGUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.515,weak,Bounce in Downtrend
+2025-07-03T16:20:01.063220,MOODENGUSDT,vwap_agent,buy,long,0.12118180386777791,BUY,0.515,weak,
+2025-07-03T16:20:03.089841,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.54,weak,
+2025-07-03T16:20:03.089841,GUNUSDT,momentum_agent,open,BUY,0.08,BUY,0.54,weak,Positive momentum breakout
+2025-07-03T16:20:03.089841,GUNUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.54,weak,RSI(2) Oversold
+2025-07-03T16:20:03.089841,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.54,weak,
+2025-07-03T16:20:39.110677,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:20:39.110677,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:20:39.110677,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:40.410001,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:20:40.410001,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:20:40.410001,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:42.025832,PORTALUSDT,agent_qfps,open,buy,0.804,BUY,0.5756666666666667,strong,
+2025-07-03T16:20:42.025832,PORTALUSDT,mean_reversion_agent,open,BUY,0.123,BUY,0.5756666666666667,strong,Z-score low: -1.75
+2025-07-03T16:20:42.025832,PORTALUSDT,momentum_agent,open,SELL,0.02,BUY,0.5756666666666667,strong,Negative momentum breakdown
+2025-07-03T16:20:42.025832,PORTALUSDT,pulse_agent,open,SELL,0.45,BUY,0.5756666666666667,strong,Downward pulse momentum
+2025-07-03T16:20:42.025832,PORTALUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.5756666666666667,strong,Warp dump signal
+2025-07-03T16:20:42.025832,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.5756666666666667,strong,Pullback in Uptrend
+2025-07-03T16:20:42.025832,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.5756666666666667,strong,
+2025-07-03T16:20:43.863716,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.515,weak,
+2025-07-03T16:20:43.863716,FUNUSDT,momentum_agent,open,BUY,0.03,BUY,0.515,weak,Positive momentum breakout
+2025-07-03T16:20:43.863716,FUNUSDT,pulse_agent,open,SELL,0.02,BUY,0.515,weak,Downward pulse momentum
+2025-07-03T16:20:43.863716,FUNUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.515,weak,Warp dump signal
+2025-07-03T16:20:43.863716,FUNUSDT,rsi_agent,open,SELL,0.1565,BUY,0.515,weak,RSI overbought drop (74.69)
+2025-07-03T16:20:43.863716,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.515,weak,
+2025-07-03T16:20:46.807225,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T16:20:46.807225,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T16:20:46.807225,SKYAIUSDT,pulse_agent,open,BUY,0.45,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T16:20:46.807225,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:20:46.807225,SKYAIUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T16:20:46.807225,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T16:20:46.807225,SKYAIUSDT,vwap_agent,sell,short,0.22616056424891412,SELL,0.9333333333333332,strong,
+2025-07-03T16:20:48.528045,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.53,weak,
+2025-07-03T16:20:48.528045,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.53,weak,Z-score neutral
+2025-07-03T16:20:48.528045,MOODENGUSDT,momentum_agent,open,BUY,0.0,BUY,0.53,weak,Positive momentum breakout
+2025-07-03T16:20:48.528045,MOODENGUSDT,pulse_agent,open,BUY,0.12,BUY,0.53,weak,Upward pulse momentum
+2025-07-03T16:20:48.528045,MOODENGUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.53,weak,RSI(2) Oversold
+2025-07-03T16:20:48.528045,MOODENGUSDT,vwap_agent,buy,long,0.10425319847528,BUY,0.53,weak,
+2025-07-03T16:20:49.804190,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:20:49.804190,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:20:49.804190,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:51.095875,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:20:51.095875,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:20:51.095875,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:52.418997,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:20:52.418997,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:20:52.418997,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:20:54.018388,GUNUSDT,agent_qfps,open,sell,1.0,BUY,0.54,weak,
+2025-07-03T16:20:54.018388,GUNUSDT,mean_reversion_agent,open,SELL,0.003,BUY,0.54,weak,Z-score high: 1.51
+2025-07-03T16:20:54.018388,GUNUSDT,momentum_agent,open,BUY,0.08,BUY,0.54,weak,Positive momentum breakout
+2025-07-03T16:20:54.018388,GUNUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.54,weak,RSI(2) Oversold
+2025-07-03T16:20:54.018388,GUNUSDT,vwap_agent,buy,long,1.0,BUY,0.54,weak,
+2025-07-03T16:21:27.130490,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:21:27.130490,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:21:27.130490,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:21:28.848923,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:21:28.848923,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:21:28.848923,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:21:31.385902,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.9,strong,
+2025-07-03T16:21:31.385902,PORTALUSDT,momentum_agent,open,SELL,0.01,BUY,0.9,strong,Negative momentum breakdown
+2025-07-03T16:21:31.385902,PORTALUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.9,strong,Warp dump signal
+2025-07-03T16:21:31.385902,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.9,strong,Pullback in Uptrend
+2025-07-03T16:21:31.385902,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.9,strong,
+2025-07-03T16:21:33.908726,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.6266666666666666,strong,
+2025-07-03T16:21:33.908726,FUNUSDT,momentum_agent,open,BUY,0.03,BUY,0.6266666666666666,strong,Positive momentum breakout
+2025-07-03T16:21:33.908726,FUNUSDT,pulse_agent,open,SELL,0.09,BUY,0.6266666666666666,strong,Downward pulse momentum
+2025-07-03T16:21:33.908726,FUNUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.6266666666666666,strong,Warp dump signal
+2025-07-03T16:21:33.908726,FUNUSDT,rsi_2_agent,open,BUY,0.85,BUY,0.6266666666666666,strong,RSI(2) Oversold
+2025-07-03T16:21:33.908726,FUNUSDT,rsi_agent,open,SELL,0.1408,BUY,0.6266666666666666,strong,RSI overbought drop (74.22)
+2025-07-03T16:21:33.908726,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.6266666666666666,strong,
+2025-07-03T16:21:36.443093,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9,strong,
+2025-07-03T16:21:36.443093,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9,strong,Positive momentum breakout
+2025-07-03T16:21:36.443093,SKYAIUSDT,pulse_agent,open,BUY,0.4,SELL,0.9,strong,Upward pulse momentum
+2025-07-03T16:21:36.443093,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:21:36.443093,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9,strong,Bounce in Downtrend
+2025-07-03T16:21:36.443093,SKYAIUSDT,vwap_agent,sell,short,0.23943156170468333,SELL,0.9,strong,
+2025-07-03T16:21:39.188607,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.535,weak,
+2025-07-03T16:21:39.188607,MOODENGUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.535,weak,Z-score neutral
+2025-07-03T16:21:39.188607,MOODENGUSDT,momentum_agent,open,BUY,0.0,BUY,0.535,weak,Positive momentum breakout
+2025-07-03T16:21:39.188607,MOODENGUSDT,pulse_agent,open,BUY,0.14,BUY,0.535,weak,Upward pulse momentum
+2025-07-03T16:21:39.188607,MOODENGUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.535,weak,RSI(2) Oversold
+2025-07-03T16:21:39.188607,MOODENGUSDT,vwap_agent,buy,long,0.1102789592585651,BUY,0.535,weak,
+2025-07-03T16:21:40.828199,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:21:40.828199,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:21:40.828199,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:21:42.139211,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:21:42.139211,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:21:42.139211,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:21:43.461286,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:21:43.461286,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:21:43.461286,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:21:45.143328,CHESSUSDT,agent_qfps,open,sell,0.921,BUY,0.39999999999999997,weak,
+2025-07-03T16:21:45.143328,CHESSUSDT,momentum_agent,open,BUY,0.01,BUY,0.39999999999999997,weak,Positive momentum breakout
+2025-07-03T16:21:45.143328,CHESSUSDT,pulse_agent,open,BUY,0.19,BUY,0.39999999999999997,weak,Upward pulse momentum
+2025-07-03T16:21:45.143328,CHESSUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.39999999999999997,weak,RSI(2) Oversold
+2025-07-03T16:21:45.143328,CHESSUSDT,vwap_agent,buy,long,1.0,BUY,0.39999999999999997,weak,
+2025-07-03T16:22:19.943943,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:22:19.943943,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:22:19.943943,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:22:21.340091,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:22:21.340091,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:22:21.340091,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:22:23.125399,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.9,strong,
+2025-07-03T16:22:23.125399,PORTALUSDT,momentum_agent,open,SELL,0.01,BUY,0.9,strong,Negative momentum breakdown
+2025-07-03T16:22:23.125399,PORTALUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.9,strong,Warp dump signal
+2025-07-03T16:22:23.125399,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.9,strong,Pullback in Uptrend
+2025-07-03T16:22:23.125399,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.9,strong,
+2025-07-03T16:22:24.804725,FUNUSDT,agent_qfps,open,buy,1.0,BUY,0.6766666666666667,strong,
+2025-07-03T16:22:24.804725,FUNUSDT,momentum_agent,open,BUY,0.03,BUY,0.6766666666666667,strong,Positive momentum breakout
+2025-07-03T16:22:24.804725,FUNUSDT,pulse_agent,open,SELL,0.11,BUY,0.6766666666666667,strong,Downward pulse momentum
+2025-07-03T16:22:24.804725,FUNUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.6766666666666667,strong,Warp dump signal
+2025-07-03T16:22:24.804725,FUNUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6766666666666667,strong,RSI(2) Oversold
+2025-07-03T16:22:24.804725,FUNUSDT,rsi_agent,open,SELL,0.1294,BUY,0.6766666666666667,strong,RSI overbought drop (73.88)
+2025-07-03T16:22:24.804725,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.6766666666666667,strong,
+2025-07-03T16:22:26.576147,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.8066666666666666,strong,
+2025-07-03T16:22:26.576147,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.8066666666666666,strong,Positive momentum breakout
+2025-07-03T16:22:26.576147,SKYAIUSDT,pulse_agent,open,BUY,0.41,SELL,0.8066666666666666,strong,Upward pulse momentum
+2025-07-03T16:22:26.576147,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.8066666666666666,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:22:26.576147,SKYAIUSDT,rsi_2_agent,open,SELL,0.62,SELL,0.8066666666666666,strong,RSI(2) Overbought
+2025-07-03T16:22:26.576147,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.8066666666666666,strong,Bounce in Downtrend
+2025-07-03T16:22:26.577150,SKYAIUSDT,vwap_agent,sell,short,0.23560973550347616,SELL,0.8066666666666666,strong,
+2025-07-03T16:22:28.489253,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.325,weak,
+2025-07-03T16:22:28.489253,MOODENGUSDT,momentum_agent,open,BUY,0.01,BUY,0.325,weak,Positive momentum breakout
+2025-07-03T16:22:28.489253,MOODENGUSDT,pulse_agent,open,BUY,0.29,BUY,0.325,weak,Upward pulse momentum
+2025-07-03T16:22:28.489253,MOODENGUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.325,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:22:28.489253,MOODENGUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.325,weak,Bounce in Downtrend
+2025-07-03T16:22:28.489253,MOODENGUSDT,vwap_agent,buy,long,0.1575203381296304,BUY,0.325,weak,
+2025-07-03T16:22:30.020305,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:22:30.020305,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:22:30.020305,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:22:31.324022,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:22:31.324022,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:22:31.324022,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:22:32.527436,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:22:32.527436,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:22:32.527436,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:22:34.093578,CHESSUSDT,agent_qfps,open,sell,1.0,BUY,0.39999999999999997,weak,
+2025-07-03T16:22:34.093578,CHESSUSDT,momentum_agent,open,BUY,0.01,BUY,0.39999999999999997,weak,Positive momentum breakout
+2025-07-03T16:22:34.093578,CHESSUSDT,pulse_agent,open,BUY,0.19,BUY,0.39999999999999997,weak,Upward pulse momentum
+2025-07-03T16:22:34.093578,CHESSUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.39999999999999997,weak,RSI(2) Oversold
+2025-07-03T16:22:34.093578,CHESSUSDT,vwap_agent,buy,long,1.0,BUY,0.39999999999999997,weak,
+2025-07-03T16:23:07.439316,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:07.439316,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:07.439316,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:08.909277,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:08.909277,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:08.909277,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:11.196341,PORTALUSDT,agent_qfps,open,buy,0.959,BUY,0.8795,strong,
+2025-07-03T16:23:11.196341,PORTALUSDT,trend_pullback_agent,open,BUY,0.8,BUY,0.8795,strong,Pullback in Uptrend
+2025-07-03T16:23:11.196341,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.8795,strong,
+2025-07-03T16:23:12.835779,FUNUSDT,agent_qfps,open,buy,0.963,BUY,0.661,strong,
+2025-07-03T16:23:12.835779,FUNUSDT,momentum_agent,open,BUY,0.02,BUY,0.661,strong,Positive momentum breakout
+2025-07-03T16:23:12.835779,FUNUSDT,pulse_agent,open,SELL,0.15,BUY,0.661,strong,Downward pulse momentum
+2025-07-03T16:23:12.835779,FUNUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.661,strong,Warp dump signal
+2025-07-03T16:23:12.835779,FUNUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.661,strong,RSI(2) Oversold
+2025-07-03T16:23:12.835779,FUNUSDT,rsi_agent,open,SELL,0.1076,BUY,0.661,strong,RSI overbought drop (73.23)
+2025-07-03T16:23:12.835779,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.661,strong,
+2025-07-03T16:23:14.586355,SKYAIUSDT,agent_qfps,open,sell,1.0,SELL,0.9,strong,
+2025-07-03T16:23:14.586355,SKYAIUSDT,momentum_agent,open,BUY,0.01,SELL,0.9,strong,Positive momentum breakout
+2025-07-03T16:23:14.586355,SKYAIUSDT,pulse_agent,open,BUY,0.29,SELL,0.9,strong,Upward pulse momentum
+2025-07-03T16:23:14.586355,SKYAIUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T16:23:14.586355,SKYAIUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9,strong,Bounce in Downtrend
+2025-07-03T16:23:14.586355,SKYAIUSDT,vwap_agent,sell,short,0.2717193652080633,SELL,0.9,strong,
+2025-07-03T16:23:16.351103,MOODENGUSDT,agent_qfps,open,buy,1.0,BUY,0.345,weak,
+2025-07-03T16:23:16.351103,MOODENGUSDT,momentum_agent,open,BUY,0.01,BUY,0.345,weak,Positive momentum breakout
+2025-07-03T16:23:16.351103,MOODENGUSDT,pulse_agent,open,BUY,0.37,BUY,0.345,weak,Upward pulse momentum
+2025-07-03T16:23:16.351103,MOODENGUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.345,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:23:16.351103,MOODENGUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.345,weak,Bounce in Downtrend
+2025-07-03T16:23:16.351103,MOODENGUSDT,vwap_agent,buy,long,0.18108640944170126,BUY,0.345,weak,
+2025-07-03T16:23:17.652805,OCEANUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:17.652805,OCEANUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:17.652805,OCEANUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:19.173300,DGBUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:19.175320,DGBUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:19.175320,DGBUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:20.441408,AGIXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:20.441408,AGIXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:20.441408,AGIXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:22.070380,CHESSUSDT,agent_qfps,open,sell,0.922,BUY,0.36000000000000004,weak,
+2025-07-03T16:23:22.070380,CHESSUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.36000000000000004,weak,Z-score neutral
+2025-07-03T16:23:22.070380,CHESSUSDT,momentum_agent,open,BUY,0.01,BUY,0.36000000000000004,weak,Positive momentum breakout
+2025-07-03T16:23:22.070380,CHESSUSDT,pulse_agent,open,BUY,0.07,BUY,0.36000000000000004,weak,Upward pulse momentum
+2025-07-03T16:23:22.070380,CHESSUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.36000000000000004,weak,RSI(2) Oversold
+2025-07-03T16:23:22.070380,CHESSUSDT,vwap_agent,buy,long,1.0,BUY,0.36000000000000004,weak,
+2025-07-03T16:23:55.069174,ALPACAUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:55.069174,ALPACAUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:55.069174,ALPACAUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:56.389182,BNXUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T16:23:56.389182,BNXUSDT,rsi_2_agent,open,BUY,1.0,,0,none,RSI(2) Oversold
+2025-07-03T16:23:56.389182,BNXUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T16:23:58.388699,PORTALUSDT,agent_qfps,open,buy,1.0,BUY,0.365,weak,
+2025-07-03T16:23:58.388699,PORTALUSDT,cosmic_agent,buy,buy,0.75,BUY,0.365,weak,Confluence (Trend+RSI+Breakout+Volume): 3/4
+2025-07-03T16:23:58.388699,PORTALUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.365,weak,Z-score neutral
+2025-07-03T16:23:58.388699,PORTALUSDT,momentum_agent,open,BUY,0.01,BUY,0.365,weak,Positive momentum breakout
+2025-07-03T16:23:58.388699,PORTALUSDT,pulse_agent,open,BUY,0.44,BUY,0.365,weak,Upward pulse momentum
+2025-07-03T16:23:58.388699,PORTALUSDT,pulse_warp_agent,open,BUY,0.01,BUY,0.365,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T16:23:58.388699,PORTALUSDT,vwap_agent,buy,long,1.0,BUY,0.365,weak,
+2025-07-03T16:24:00.034224,FUNUSDT,agent_qfps,open,buy,0.85,BUY,0.6233333333333334,strong,
+2025-07-03T16:24:00.034224,FUNUSDT,momentum_agent,open,BUY,0.02,BUY,0.6233333333333334,strong,Positive momentum breakout
+2025-07-03T16:24:00.034224,FUNUSDT,pulse_agent,open,SELL,0.14,BUY,0.6233333333333334,strong,Downward pulse momentum
+2025-07-03T16:24:00.034887,FUNUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.6233333333333334,strong,Warp dump signal
+2025-07-03T16:24:00.034887,FUNUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6233333333333334,strong,RSI(2) Oversold
+2025-07-03T16:24:00.034887,FUNUSDT,rsi_agent,open,SELL,0.1126,BUY,0.6233333333333334,strong,RSI overbought drop (73.38)
+2025-07-03T16:24:00.034887,FUNUSDT,vwap_agent,buy,long,1.0,BUY,0.6233333333333334,strong,
+2025-07-03T19:17:28.765077,ETHUSDT,agent_qfps,open,sell,1.0,SELL,0.7086666666666667,strong,
+2025-07-03T19:17:28.766059,ETHUSDT,mean_reversion_agent,open,SELL,0.126,SELL,0.7086666666666667,strong,Z-score high: 1.75
+2025-07-03T19:17:28.766059,ETHUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.7086666666666667,strong,RSI(2) Overbought
+2025-07-03T19:17:28.766059,ETHUSDT,vwap_agent,sell,short,0.010585200119522459,SELL,0.7086666666666667,strong,
+2025-07-03T19:31:45.639988,BTCUSDT,agent_qfps,open,buy,1.0,BUY,0.5,weak,
+2025-07-03T19:31:45.639988,BTCUSDT,momentum_agent,open,BUY,0.0,BUY,0.5,weak,Positive momentum breakout
+2025-07-03T19:31:45.639988,BTCUSDT,pulse_agent,open,SELL,0.01,BUY,0.5,weak,Downward pulse momentum
+2025-07-03T19:31:45.639988,BTCUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.5,weak,Warp dump signal
+2025-07-03T19:31:45.639988,BTCUSDT,vwap_agent,buy,long,0.01634888758814563,BUY,0.5,weak,
+2025-07-03T19:31:47.052616,ETHUSDT,agent_qfps,open,sell,1.0,SELL,0.3566666666666667,weak,
+2025-07-03T19:31:47.052616,ETHUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.3566666666666667,weak,Z-score neutral
+2025-07-03T19:31:47.052616,ETHUSDT,pulse_agent,open,SELL,0.07,SELL,0.3566666666666667,weak,Downward pulse momentum
+2025-07-03T19:31:47.052616,ETHUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.3566666666666667,weak,Warp dump signal
+2025-07-03T19:31:47.052616,ETHUSDT,rsi_2_agent,open,BUY,1.0,SELL,0.3566666666666667,weak,RSI(2) Oversold
+2025-07-03T19:31:47.052616,ETHUSDT,vwap_agent,sell,short,0.03116105184785614,SELL,0.3566666666666667,weak,
+2025-07-03T19:31:48.399648,AAVEUSDT,agent_qfps,open,buy,1.0,BUY,0.6666666666666666,strong,
+2025-07-03T19:31:48.399648,AAVEUSDT,momentum_agent,open,BUY,0.0,BUY,0.6666666666666666,strong,Positive momentum breakout
+2025-07-03T19:31:48.399648,AAVEUSDT,pulse_agent,open,SELL,0.01,BUY,0.6666666666666666,strong,Downward pulse momentum
+2025-07-03T19:31:48.399648,AAVEUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.6666666666666666,strong,Warp dump signal
+2025-07-03T19:31:48.399648,AAVEUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6666666666666666,strong,RSI(2) Oversold
+2025-07-03T19:31:48.399648,AAVEUSDT,vwap_agent,sell,short,0.011469641264725083,BUY,0.6666666666666666,strong,
+2025-07-03T19:31:49.752282,XMRUSDT,agent_qfps,open,sell,0.156,SELL,0.432,weak,
+2025-07-03T19:31:49.752282,XMRUSDT,pulse_agent,open,SELL,0.14,SELL,0.432,weak,Downward pulse momentum
+2025-07-03T19:31:49.752282,XMRUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.432,weak,RSI(2) Overbought
+2025-07-03T19:31:49.752282,XMRUSDT,vwap_agent,sell,short,0.11431672900530238,SELL,0.432,weak,
+2025-07-03T19:31:51.115341,BNBUSDT,agent_qfps,open,sell,0.334,BUY,0.5655555555555178,strong,
+2025-07-03T19:31:51.115341,BNBUSDT,momentum_agent,open,BUY,0.0,BUY,0.5655555555555178,strong,Positive momentum breakout
+2025-07-03T19:31:51.115341,BNBUSDT,vortex_agent,open,BUY,1.1311111111110357,BUY,0.5655555555555178,strong,Vortex bullish crossover
+2025-07-03T19:31:51.115341,BNBUSDT,vwap_agent,buy,long,0.020719528306801537,BUY,0.5655555555555178,strong,
+2025-07-03T19:31:52.469522,SOLUSDT,agent_qfps,open,sell,1.0,SELL,0.4525,weak,
+2025-07-03T19:31:52.469522,SOLUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.4525,weak,Z-score neutral
+2025-07-03T19:31:52.469522,SOLUSDT,pulse_agent,open,SELL,0.01,SELL,0.4525,weak,Downward pulse momentum
+2025-07-03T19:31:52.469522,SOLUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.4525,weak,Warp dump signal
+2025-07-03T19:31:52.469522,SOLUSDT,rsi_2_agent,open,BUY,1.0,SELL,0.4525,weak,RSI(2) Oversold
+2025-07-03T19:31:52.469522,SOLUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.4525,weak,Bounce in Downtrend
+2025-07-03T19:31:52.469522,SOLUSDT,vwap_agent,sell,short,0.04813187168363585,SELL,0.4525,weak,
+2025-07-03T19:31:53.856849,TAOUSDT,agent_qfps,open,sell,0.634,BUY,0.4094247787610634,weak,
+2025-07-03T19:31:53.856849,TAOUSDT,mean_reversion_agent,open,SELL,0.004,BUY,0.4094247787610634,weak,Z-score high: 1.51
+2025-07-03T19:31:53.856849,TAOUSDT,momentum_agent,open,BUY,0.01,BUY,0.4094247787610634,weak,Positive momentum breakout
+2025-07-03T19:31:53.856849,TAOUSDT,vortex_agent,open,BUY,0.8088495575221268,BUY,0.4094247787610634,weak,Vortex bullish crossover
+2025-07-03T19:31:53.856849,TAOUSDT,vwap_agent,buy,long,0.021474206179937318,BUY,0.4094247787610634,weak,
+2025-07-03T19:31:55.195786,MKRUSDT,agent_qfps,open,buy,1.0,BUY,1.0,strong,
+2025-07-03T19:31:55.195786,MKRUSDT,macd_agent,sell,sell,0.0,BUY,1.0,strong,MACD bearish crossover
+2025-07-03T19:31:55.195786,MKRUSDT,momentum_agent,open,SELL,0.0,BUY,1.0,strong,Negative momentum breakdown
+2025-07-03T19:31:55.195786,MKRUSDT,pulse_agent,open,SELL,0.08,BUY,1.0,strong,Downward pulse momentum
+2025-07-03T19:31:55.195786,MKRUSDT,pulse_warp_agent,open,SELL,0.0,BUY,1.0,strong,Warp dump signal
+2025-07-03T19:31:55.195786,MKRUSDT,rsi_2_agent,open,BUY,1.0,BUY,1.0,strong,RSI(2) Oversold
+2025-07-03T19:31:55.195786,MKRUSDT,vwap_agent,sell,short,0.053505663379655635,BUY,1.0,strong,
+2025-07-03T19:31:56.585042,HYPEUSDT,agent_qfps,open,buy,0.748,BUY,0.7537927461139886,strong,
+2025-07-03T19:31:56.585042,HYPEUSDT,pulse_agent,open,SELL,0.05,BUY,0.7537927461139886,strong,Downward pulse momentum
+2025-07-03T19:31:56.585042,HYPEUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.7537927461139886,strong,Warp dump signal
+2025-07-03T19:31:56.585042,HYPEUSDT,vortex_agent,open,BUY,0.7595854922279771,BUY,0.7537927461139886,strong,Vortex bullish crossover
+2025-07-03T19:31:56.585042,HYPEUSDT,vwap_agent,buy,long,0.016761636230009033,BUY,0.7537927461139886,strong,
+2025-07-03T19:31:57.943170,FARTCOINUSDT,agent_qfps,open,buy,1.0,BUY,0.6733333333333333,strong,
+2025-07-03T19:31:57.943170,FARTCOINUSDT,momentum_agent,open,BUY,0.02,BUY,0.6733333333333333,strong,Positive momentum breakout
+2025-07-03T19:31:57.943170,FARTCOINUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6733333333333333,strong,RSI(2) Oversold
+2025-07-03T19:31:57.943170,FARTCOINUSDT,vwap_agent,buy,long,0.09591951721079203,BUY,0.6733333333333333,strong,
+2025-07-03T19:31:59.739468,YFIUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T19:31:59.739468,YFIUSDT,pulse_agent,open,SELL,0.01,,0,none,Downward pulse momentum
+2025-07-03T19:31:59.739468,YFIUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T19:31:59.740478,YFIUSDT,vwap_agent,hold,long,0.0,,0,none,
+2025-07-03T19:32:00.431398,BTCDOMUSDT,agent_qfps,open,buy,1.0,BUY,0.26,weak,
+2025-07-03T19:32:00.431398,BTCDOMUSDT,macd_agent,buy,buy,0.0001,BUY,0.26,weak,MACD bullish crossover
+2025-07-03T19:32:00.431398,BTCDOMUSDT,momentum_agent,open,BUY,0.0,BUY,0.26,weak,Positive momentum breakout
+2025-07-03T19:32:00.431398,BTCDOMUSDT,pulse_agent,open,BUY,0.04,BUY,0.26,weak,Upward pulse momentum
+2025-07-03T19:32:00.431398,BTCDOMUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.26,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:00.431398,BTCDOMUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.26,weak,RSI(2) Overbought
+2025-07-03T19:32:00.431398,BTCDOMUSDT,vwap_agent,buy,long,0.04008528984369464,BUY,0.26,weak,
+2025-07-03T19:32:01.765353,INJUSDT,agent_qfps,open,sell,0.71,BUY,0.505,weak,
+2025-07-03T19:32:01.765353,INJUSDT,momentum_agent,open,BUY,0.01,BUY,0.505,weak,Positive momentum breakout
+2025-07-03T19:32:01.765353,INJUSDT,pulse_agent,open,SELL,0.06,BUY,0.505,weak,Downward pulse momentum
+2025-07-03T19:32:01.765353,INJUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.505,weak,Warp dump signal
+2025-07-03T19:32:01.765353,INJUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.505,weak,RSI(2) Oversold
+2025-07-03T19:32:01.765353,INJUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.505,weak,Bounce in Downtrend
+2025-07-03T19:32:01.765353,INJUSDT,vwap_agent,sell,short,0.07218139799361152,BUY,0.505,weak,
+2025-07-03T19:32:03.781996,LTCUSDT,agent_qfps,open,sell,0.716,SELL,0.194,weak,
+2025-07-03T19:32:03.781996,LTCUSDT,momentum_agent,open,SELL,0.0,SELL,0.194,weak,Negative momentum breakdown
+2025-07-03T19:32:03.781996,LTCUSDT,pulse_agent,open,SELL,0.06,SELL,0.194,weak,Downward pulse momentum
+2025-07-03T19:32:03.781996,LTCUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.194,weak,Warp dump signal
+2025-07-03T19:32:03.781996,LTCUSDT,rsi_2_agent,open,BUY,1.0,SELL,0.194,weak,RSI(2) Oversold
+2025-07-03T19:32:03.781996,LTCUSDT,vwap_agent,sell,short,0.06762550543600465,SELL,0.194,weak,
+2025-07-03T19:32:05.170842,MYXUSDT,agent_qfps,open,buy,0.698,BUY,0.6597666666666667,strong,
+2025-07-03T19:32:05.170842,MYXUSDT,bollinger_bands_agent,open,BUY,0.8,BUY,0.6597666666666667,strong,BBands Long
+2025-07-03T19:32:05.170842,MYXUSDT,mean_reversion_agent,open,BUY,0.498,BUY,0.6597666666666667,strong,Z-score low: -2.50
+2025-07-03T19:32:05.170842,MYXUSDT,momentum_agent,open,SELL,0.03,BUY,0.6597666666666667,strong,Negative momentum breakdown
+2025-07-03T19:32:05.170842,MYXUSDT,pulse_agent,open,SELL,1.0,BUY,0.6597666666666667,strong,Downward pulse momentum
+2025-07-03T19:32:05.170842,MYXUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.6597666666666667,strong,Warp dump signal
+2025-07-03T19:32:05.170842,MYXUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.6597666666666667,strong,RSI(2) Oversold
+2025-07-03T19:32:05.170842,MYXUSDT,rsi_agent,open,BUY,0.1326,BUY,0.6597666666666667,strong,RSI oversold bounce (26.02)
+2025-07-03T19:32:05.170842,MYXUSDT,vwap_agent,sell,short,0.5450908265637824,BUY,0.6597666666666667,strong,
+2025-07-03T19:32:05.170842,MYXUSDT,zscorepair_agent,open,BUY,0.83,BUY,0.6597666666666667,strong,Z-score -2.50 very low (mean reversion BUY)
+2025-07-03T19:32:06.501007,ICNTUSDT,agent_qfps,open,buy,0.046,BUY,0.523,weak,
+2025-07-03T19:32:06.501007,ICNTUSDT,macd_agent,sell,sell,0.0005,BUY,0.523,weak,MACD bearish crossover
+2025-07-03T19:32:06.501007,ICNTUSDT,macd_cross_agent,open,SELL,0.77,BUY,0.523,weak,MACD Bearish Cross
+2025-07-03T19:32:06.501007,ICNTUSDT,momentum_agent,open,SELL,0.02,BUY,0.523,weak,Negative momentum breakdown
+2025-07-03T19:32:06.501007,ICNTUSDT,pulse_agent,open,SELL,0.73,BUY,0.523,weak,Downward pulse momentum
+2025-07-03T19:32:06.501007,ICNTUSDT,pulse_warp_agent,open,SELL,0.01,BUY,0.523,weak,Warp dump signal
+2025-07-03T19:32:06.501007,ICNTUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.523,weak,RSI(2) Oversold
+2025-07-03T19:32:06.501007,ICNTUSDT,vwap_agent,sell,short,0.7769452782244293,BUY,0.523,weak,
+2025-07-03T19:32:07.876440,QNTUSDT,agent_qfps,open,sell,0.836,SELL,0.45849999999999996,weak,
+2025-07-03T19:32:07.876440,QNTUSDT,mean_reversion_agent,open,SELL,0.081,SELL,0.45849999999999996,weak,Z-score high: 1.66
+2025-07-03T19:32:07.876440,QNTUSDT,momentum_agent,open,BUY,0.0,SELL,0.45849999999999996,weak,Positive momentum breakout
+2025-07-03T19:32:07.876440,QNTUSDT,vwap_agent,sell,short,0.01609337103751971,SELL,0.45849999999999996,weak,
+2025-07-03T19:32:09.213338,TRBUSDT,agent_qfps,open,sell,1.0,SELL,0.9333333333333332,strong,
+2025-07-03T19:32:09.213338,TRBUSDT,cosmic_agent,buy,buy,0.75,SELL,0.9333333333333332,strong,Confluence (Trend+RSI+Breakout+Volume): 3/4
+2025-07-03T19:32:09.213338,TRBUSDT,momentum_agent,open,BUY,0.01,SELL,0.9333333333333332,strong,Positive momentum breakout
+2025-07-03T19:32:09.213338,TRBUSDT,pulse_agent,open,BUY,0.13,SELL,0.9333333333333332,strong,Upward pulse momentum
+2025-07-03T19:32:09.213338,TRBUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9333333333333332,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:09.213338,TRBUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.9333333333333332,strong,RSI(2) Overbought
+2025-07-03T19:32:09.213338,TRBUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9333333333333332,strong,Bounce in Downtrend
+2025-07-03T19:32:09.213338,TRBUSDT,vwap_agent,hold,long,0.0,SELL,0.9333333333333332,strong,
+2025-07-03T19:32:10.549770,UNIUSDT,agent_qfps,open,sell,1.0,SELL,0.36333333333333334,weak,
+2025-07-03T19:32:10.549770,UNIUSDT,momentum_agent,open,SELL,0.0,SELL,0.36333333333333334,weak,Negative momentum breakdown
+2025-07-03T19:32:10.549770,UNIUSDT,pulse_agent,open,SELL,0.09,SELL,0.36333333333333334,weak,Downward pulse momentum
+2025-07-03T19:32:10.549770,UNIUSDT,rsi_2_agent,open,BUY,1.0,SELL,0.36333333333333334,weak,RSI(2) Oversold
+2025-07-03T19:32:10.549770,UNIUSDT,vwap_agent,sell,short,0.11758121363279447,SELL,0.36333333333333334,weak,
+2025-07-03T19:32:11.887371,WIFUSDT,agent_qfps,open,buy,0.546,BUY,0.278,weak,
+2025-07-03T19:32:11.887371,WIFUSDT,mean_reversion_agent,open,SELL,0.107,BUY,0.278,weak,Z-score high: 1.71
+2025-07-03T19:32:11.887371,WIFUSDT,momentum_agent,open,BUY,0.01,BUY,0.278,weak,Positive momentum breakout
+2025-07-03T19:32:11.887371,WIFUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.278,weak,Bounce in Downtrend
+2025-07-03T19:32:11.887371,WIFUSDT,vwap_agent,sell,short,0.05071052369890415,BUY,0.278,weak,
+2025-07-03T19:32:13.218260,SPXUSDT,agent_qfps,open,buy,0.702,BUY,0.7709999999999999,strong,
+2025-07-03T19:32:13.218260,SPXUSDT,pulse_agent,open,SELL,0.11,BUY,0.7709999999999999,strong,Downward pulse momentum
+2025-07-03T19:32:13.218260,SPXUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.7709999999999999,strong,Warp dump signal
+2025-07-03T19:32:13.218260,SPXUSDT,rsi_2_agent,open,BUY,0.84,BUY,0.7709999999999999,strong,RSI(2) Oversold
+2025-07-03T19:32:13.218260,SPXUSDT,vwap_agent,sell,short,0.05328516420506413,BUY,0.7709999999999999,strong,
+2025-07-03T19:32:14.553165,SUIUSDT,agent_qfps,open,buy,0.882,BUY,0.9410000000000001,strong,
+2025-07-03T19:32:14.553165,SUIUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.9410000000000001,strong,Z-score neutral
+2025-07-03T19:32:14.553165,SUIUSDT,pulse_agent,open,SELL,0.06,BUY,0.9410000000000001,strong,Downward pulse momentum
+2025-07-03T19:32:14.553165,SUIUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.9410000000000001,strong,RSI(2) Oversold
+2025-07-03T19:32:14.553165,SUIUSDT,vwap_agent,sell,short,0.049514045371207585,BUY,0.9410000000000001,strong,
+2025-07-03T19:32:15.905030,NEARUSDT,agent_qfps,open,buy,0.668,BUY,0.20700000000000002,weak,
+2025-07-03T19:32:15.905030,NEARUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.20700000000000002,weak,BBands Short
+2025-07-03T19:32:15.905030,NEARUSDT,mean_reversion_agent,open,SELL,0.258,BUY,0.20700000000000002,weak,Z-score high: 2.02
+2025-07-03T19:32:15.905030,NEARUSDT,momentum_agent,open,BUY,0.01,BUY,0.20700000000000002,weak,Positive momentum breakout
+2025-07-03T19:32:15.905030,NEARUSDT,pulse_agent,open,BUY,0.15,BUY,0.20700000000000002,weak,Upward pulse momentum
+2025-07-03T19:32:15.905030,NEARUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.20700000000000002,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:15.905030,NEARUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.20700000000000002,weak,RSI(2) Overbought
+2025-07-03T19:32:15.905030,NEARUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.20700000000000002,weak,Bounce in Downtrend
+2025-07-03T19:32:15.905030,NEARUSDT,vwap_agent,sell,short,0.04363546219419702,BUY,0.20700000000000002,weak,
+2025-07-03T19:32:15.905030,NEARUSDT,zscorepair_agent,open,SELL,0.67,BUY,0.20700000000000002,weak,Z-score 2.02 very high (mean reversion SELL)
+2025-07-03T19:32:17.265604,TRUMPUSDT,agent_qfps,open,sell,1.0,SELL,0.9,strong,
+2025-07-03T19:32:17.265604,TRUMPUSDT,momentum_agent,open,BUY,0.0,SELL,0.9,strong,Positive momentum breakout
+2025-07-03T19:32:17.265604,TRUMPUSDT,pulse_agent,open,BUY,0.02,SELL,0.9,strong,Upward pulse momentum
+2025-07-03T19:32:17.265604,TRUMPUSDT,pulse_warp_agent,open,BUY,0.0,SELL,0.9,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:17.265604,TRUMPUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.9,strong,Bounce in Downtrend
+2025-07-03T19:32:17.265604,TRUMPUSDT,vwap_agent,sell,short,0.028668271182551747,SELL,0.9,strong,
+2025-07-03T19:32:18.598715,RENDERUSDT,agent_qfps,open,buy,1.0,BUY,0.28500000000000003,weak,
+2025-07-03T19:32:18.598715,RENDERUSDT,bollinger_bands_agent,open,SELL,0.8,BUY,0.28500000000000003,weak,BBands Short
+2025-07-03T19:32:18.598715,RENDERUSDT,mean_reversion_agent,open,SELL,0.266,BUY,0.28500000000000003,weak,Z-score high: 2.03
+2025-07-03T19:32:18.598715,RENDERUSDT,momentum_agent,open,BUY,0.01,BUY,0.28500000000000003,weak,Positive momentum breakout
+2025-07-03T19:32:18.598715,RENDERUSDT,pulse_agent,open,BUY,0.13,BUY,0.28500000000000003,weak,Upward pulse momentum
+2025-07-03T19:32:18.598715,RENDERUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.28500000000000003,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:18.598715,RENDERUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.28500000000000003,weak,RSI(2) Overbought
+2025-07-03T19:32:18.598715,RENDERUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.28500000000000003,weak,Bounce in Downtrend
+2025-07-03T19:32:18.598715,RENDERUSDT,vwap_agent,sell,short,0.055996945223919854,BUY,0.28500000000000003,weak,
+2025-07-03T19:32:18.598715,RENDERUSDT,zscorepair_agent,open,SELL,0.68,BUY,0.28500000000000003,weak,Z-score 2.03 very high (mean reversion SELL)
+2025-07-03T19:32:19.948068,ZECUSDT,agent_qfps,open,sell,1.0,SELL,1.0,strong,
+2025-07-03T19:32:19.948068,ZECUSDT,pulse_agent,open,BUY,0.13,SELL,1.0,strong,Upward pulse momentum
+2025-07-03T19:32:19.948068,ZECUSDT,pulse_warp_agent,open,BUY,0.0,SELL,1.0,strong,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:19.948068,ZECUSDT,rsi_2_agent,open,SELL,1.0,SELL,1.0,strong,RSI(2) Overbought
+2025-07-03T19:32:19.948068,ZECUSDT,vwap_agent,buy,long,0.09860908630253969,SELL,1.0,strong,
+2025-07-03T19:32:21.283902,PAXGUSDT,agent_qfps,hold,hold,0.0,BUY,0.50115,weak,
+2025-07-03T19:32:21.283902,PAXGUSDT,momentum_agent,open,SELL,0.0,BUY,0.50115,weak,Negative momentum breakdown
+2025-07-03T19:32:21.283902,PAXGUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.50115,weak,RSI(2) Oversold
+2025-07-03T19:32:21.283902,PAXGUSDT,rsi_agent,open,BUY,0.0023,BUY,0.50115,weak,RSI oversold bounce (29.93)
+2025-07-03T19:32:21.283902,PAXGUSDT,vwap_agent,hold,long,0.0,BUY,0.50115,weak,
+2025-07-03T19:32:22.646589,APTUSDT,agent_qfps,open,buy,0.793,BUY,0.4015,weak,
+2025-07-03T19:32:22.646589,APTUSDT,mean_reversion_agent,open,SELL,0.077,BUY,0.4015,weak,Z-score high: 1.65
+2025-07-03T19:32:22.646589,APTUSDT,momentum_agent,open,BUY,0.01,BUY,0.4015,weak,Positive momentum breakout
+2025-07-03T19:32:22.646589,APTUSDT,vwap_agent,hold,long,0.0,BUY,0.4015,weak,
+2025-07-03T19:32:23.999323,AI16ZUSDT,agent_qfps,open,buy,0.6,BUY,0.2,weak,
+2025-07-03T19:32:23.999323,AI16ZUSDT,mean_reversion_agent,open,SELL,0.126,BUY,0.2,weak,Z-score high: 1.75
+2025-07-03T19:32:23.999323,AI16ZUSDT,momentum_agent,open,BUY,0.01,BUY,0.2,weak,Positive momentum breakout
+2025-07-03T19:32:23.999323,AI16ZUSDT,pulse_agent,open,BUY,0.19,BUY,0.2,weak,Upward pulse momentum
+2025-07-03T19:32:23.999323,AI16ZUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.2,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:23.999323,AI16ZUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.2,weak,Bounce in Downtrend
+2025-07-03T19:32:23.999323,AI16ZUSDT,vwap_agent,sell,short,0.18156556340987476,BUY,0.2,weak,
+2025-07-03T19:32:25.654908,LPTUSDT,agent_qfps,open,buy,1.0,BUY,0.2575,weak,
+2025-07-03T19:32:25.654908,LPTUSDT,mean_reversion_agent,hold,HOLD,0.0,BUY,0.2575,weak,Z-score neutral
+2025-07-03T19:32:25.654908,LPTUSDT,momentum_agent,open,BUY,0.0,BUY,0.2575,weak,Positive momentum breakout
+2025-07-03T19:32:25.654908,LPTUSDT,pulse_agent,open,BUY,0.03,BUY,0.2575,weak,Upward pulse momentum
+2025-07-03T19:32:25.654908,LPTUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.2575,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:32:25.655908,LPTUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.2575,weak,Bounce in Downtrend
+2025-07-03T19:32:25.655908,LPTUSDT,vwap_agent,sell,short,0.020819276850226366,BUY,0.2575,weak,
+2025-07-03T19:37:52.880558,BTCUSDT,agent_qfps,open,sell,0.625,SELL,0.215,weak,
+2025-07-03T19:37:52.880558,BTCUSDT,momentum_agent,open,BUY,0.0,SELL,0.215,weak,Positive momentum breakout
+2025-07-03T19:37:52.880558,BTCUSDT,pulse_agent,open,SELL,0.02,SELL,0.215,weak,Downward pulse momentum
+2025-07-03T19:37:52.880558,BTCUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.215,weak,Warp dump signal
+2025-07-03T19:37:52.880558,BTCUSDT,vwap_agent,buy,long,0.013885847530308085,SELL,0.215,weak,
+2025-07-03T19:37:54.219283,ETHUSDT,agent_qfps,open,sell,0.607,SELL,0.22566666666666668,weak,
+2025-07-03T19:37:54.219283,ETHUSDT,macd_agent,sell,sell,0.0001,SELL,0.22566666666666668,weak,MACD bearish crossover
+2025-07-03T19:37:54.219283,ETHUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.22566666666666668,weak,Z-score neutral
+2025-07-03T19:37:54.219283,ETHUSDT,pulse_agent,open,SELL,0.07,SELL,0.22566666666666668,weak,Downward pulse momentum
+2025-07-03T19:37:54.219283,ETHUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.22566666666666668,weak,Warp dump signal
+2025-07-03T19:37:54.219283,ETHUSDT,trend_pullback_agent,open,BUY,0.8,SELL,0.22566666666666668,weak,Pullback in Uptrend
+2025-07-03T19:37:54.219283,ETHUSDT,vwap_agent,sell,short,0.03845699673801654,SELL,0.22566666666666668,weak,
+2025-07-03T19:37:55.553541,TAOUSDT,agent_qfps,open,buy,0.572,BUY,0.42258884120171614,weak,
+2025-07-03T19:37:55.553541,TAOUSDT,breakout_agent,open,BUY,0.87,BUY,0.42258884120171614,weak,High Breakout
+2025-07-03T19:37:55.553541,TAOUSDT,mean_reversion_agent,open,SELL,0.093,BUY,0.42258884120171614,weak,Z-score high: 1.69
+2025-07-03T19:37:55.553541,TAOUSDT,momentum_agent,open,BUY,0.01,BUY,0.42258884120171614,weak,Positive momentum breakout
+2025-07-03T19:37:55.553541,TAOUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.42258884120171614,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:37:55.553541,TAOUSDT,vortex_agent,open,BUY,0.6609442060085807,BUY,0.42258884120171614,weak,Vortex bullish crossover
+2025-07-03T19:37:55.553541,TAOUSDT,vwap_agent,buy,long,0.041501643411110185,BUY,0.42258884120171614,weak,
+2025-07-03T19:37:56.903630,HYPEUSDT,agent_qfps,open,sell,0.54,SELL,0.20666666666666667,weak,
+2025-07-03T19:37:56.903630,HYPEUSDT,pulse_agent,open,SELL,0.08,SELL,0.20666666666666667,weak,Downward pulse momentum
+2025-07-03T19:37:56.903630,HYPEUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.20666666666666667,weak,Warp dump signal
+2025-07-03T19:37:56.903630,HYPEUSDT,vwap_agent,buy,long,0.018110750823046397,SELL,0.20666666666666667,weak,
+2025-07-03T19:37:56.903630,HYPEUSDT,vwap_bounce_agent,open,BUY,0.8,SELL,0.20666666666666667,weak,VWAP Bounce Up
+2025-07-03T19:37:58.249473,MKRUSDT,agent_qfps,open,sell,1.0,SELL,0.37333333333333335,weak,
+2025-07-03T19:37:58.249473,MKRUSDT,momentum_agent,open,BUY,0.0,SELL,0.37333333333333335,weak,Positive momentum breakout
+2025-07-03T19:37:58.249473,MKRUSDT,pulse_agent,open,SELL,0.12,SELL,0.37333333333333335,weak,Downward pulse momentum
+2025-07-03T19:37:58.249473,MKRUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.37333333333333335,weak,Warp dump signal
+2025-07-03T19:37:58.249473,MKRUSDT,vwap_agent,sell,short,0.06279781810528026,SELL,0.37333333333333335,weak,
+2025-07-03T19:37:59.600609,SOLUSDT,agent_qfps,open,buy,0.744,SELL,0.2833333333333334,weak,
+2025-07-03T19:37:59.600609,SOLUSDT,macd_agent,sell,sell,0.0,SELL,0.2833333333333334,weak,MACD bearish crossover
+2025-07-03T19:37:59.600609,SOLUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.2833333333333334,weak,Z-score neutral
+2025-07-03T19:37:59.600609,SOLUSDT,pulse_agent,open,SELL,0.05,SELL,0.2833333333333334,weak,Downward pulse momentum
+2025-07-03T19:37:59.600609,SOLUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.2833333333333334,weak,Warp dump signal
+2025-07-03T19:37:59.600609,SOLUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.2833333333333334,weak,Bounce in Downtrend
+2025-07-03T19:37:59.600609,SOLUSDT,vwap_agent,sell,short,0.04955757636216946,SELL,0.2833333333333334,weak,
+2025-07-03T19:38:00.935020,BCHUSDT,agent_qfps,open,buy,1.0,,0,none,
+2025-07-03T19:38:00.935020,BCHUSDT,momentum_agent,open,SELL,0.0,,0,none,Negative momentum breakdown
+2025-07-03T19:38:00.935020,BCHUSDT,pulse_agent,open,SELL,0.07,,0,none,Downward pulse momentum
+2025-07-03T19:38:00.935020,BCHUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T19:38:00.935020,BCHUSDT,vwap_agent,sell,short,0.04155278827343282,,0,none,
+2025-07-03T19:38:01.622038,UNIUSDT,agent_qfps,open,sell,1.0,BUY,0.2615,weak,
+2025-07-03T19:38:01.622038,UNIUSDT,mean_reversion_agent,open,BUY,0.143,BUY,0.2615,weak,Z-score low: -1.79
+2025-07-03T19:38:01.622038,UNIUSDT,pulse_agent,open,SELL,0.16,BUY,0.2615,weak,Downward pulse momentum
+2025-07-03T19:38:01.622038,UNIUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.2615,weak,Warp dump signal
+2025-07-03T19:38:01.622038,UNIUSDT,rsi_2_agent,open,BUY,0.38,BUY,0.2615,weak,RSI(2) Oversold
+2025-07-03T19:38:01.622038,UNIUSDT,vwap_agent,sell,short,0.14229703705019864,BUY,0.2615,weak,
+2025-07-03T19:38:02.980688,LTCUSDT,agent_qfps,open,buy,0.271,BUY,0.494,weak,
+2025-07-03T19:38:02.980688,LTCUSDT,mean_reversion_agent,open,BUY,0.211,BUY,0.494,weak,Z-score low: -1.92
+2025-07-03T19:38:02.980688,LTCUSDT,momentum_agent,open,SELL,0.0,BUY,0.494,weak,Negative momentum breakdown
+2025-07-03T19:38:02.980688,LTCUSDT,pulse_agent,open,SELL,0.14,BUY,0.494,weak,Downward pulse momentum
+2025-07-03T19:38:02.980688,LTCUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.494,weak,Warp dump signal
+2025-07-03T19:38:02.980688,LTCUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.494,weak,RSI(2) Oversold
+2025-07-03T19:38:02.980688,LTCUSDT,vwap_agent,sell,short,0.08445884320803035,BUY,0.494,weak,
+2025-07-03T19:38:04.379117,BTCDOMUSDT,agent_qfps,open,buy,1.0,BUY,0.26,weak,
+2025-07-03T19:38:04.379117,BTCDOMUSDT,mean_reversion_agent,open,SELL,0.064,BUY,0.26,weak,Z-score high: 1.63
+2025-07-03T19:38:04.379117,BTCDOMUSDT,momentum_agent,open,BUY,0.0,BUY,0.26,weak,Positive momentum breakout
+2025-07-03T19:38:04.380122,BTCDOMUSDT,pulse_agent,open,BUY,0.04,BUY,0.26,weak,Upward pulse momentum
+2025-07-03T19:38:04.380122,BTCDOMUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.26,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:38:04.380122,BTCDOMUSDT,vwap_agent,buy,long,0.04126590088078981,BUY,0.26,weak,
+2025-07-03T19:38:05.755884,INJUSDT,agent_qfps,open,sell,1.0,SELL,0.5125,weak,
+2025-07-03T19:38:05.755884,INJUSDT,momentum_agent,open,BUY,0.01,SELL,0.5125,weak,Positive momentum breakout
+2025-07-03T19:38:05.755884,INJUSDT,pulse_agent,open,SELL,0.25,SELL,0.5125,weak,Downward pulse momentum
+2025-07-03T19:38:05.755884,INJUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.5125,weak,Warp dump signal
+2025-07-03T19:38:05.755884,INJUSDT,rsi_2_agent,open,BUY,0.05,SELL,0.5125,weak,RSI(2) Oversold
+2025-07-03T19:38:05.755884,INJUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.5125,weak,Bounce in Downtrend
+2025-07-03T19:38:05.755884,INJUSDT,vwap_agent,sell,short,0.09005532079549666,SELL,0.5125,weak,
+2025-07-03T19:38:07.127148,BNBUSDT,agent_qfps,open,buy,0.228,BUY,0.5111861471861325,weak,
+2025-07-03T19:38:07.127148,BNBUSDT,pulse_agent,open,SELL,0.0,BUY,0.5111861471861325,weak,Downward pulse momentum
+2025-07-03T19:38:07.127148,BNBUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.5111861471861325,weak,Warp dump signal
+2025-07-03T19:38:07.127148,BNBUSDT,vortex_agent,open,BUY,0.7943722943722651,BUY,0.5111861471861325,weak,Vortex bullish crossover
+2025-07-03T19:38:07.127148,BNBUSDT,vwap_agent,buy,long,0.018079433407055884,BUY,0.5111861471861325,weak,
+2025-07-03T19:38:08.485034,XMRUSDT,agent_qfps,open,buy,0.292,BUY,0.2333333333333333,weak,
+2025-07-03T19:38:08.485034,XMRUSDT,mean_reversion_agent,open,BUY,0.118,BUY,0.2333333333333333,weak,Z-score low: -1.74
+2025-07-03T19:38:08.485034,XMRUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.2333333333333333,weak,Warp dump signal
+2025-07-03T19:38:08.485034,XMRUSDT,rsi_2_agent,open,BUY,0.29,BUY,0.2333333333333333,weak,RSI(2) Oversold
+2025-07-03T19:38:08.485034,XMRUSDT,vwap_agent,sell,short,0.16025036566471904,BUY,0.2333333333333333,weak,
+2025-07-03T19:38:09.926922,SUIUSDT,agent_qfps,open,buy,0.592,,0,none,
+2025-07-03T19:38:09.926922,SUIUSDT,pulse_agent,open,SELL,0.09,,0,none,Downward pulse momentum
+2025-07-03T19:38:09.926922,SUIUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T19:38:09.926922,SUIUSDT,vwap_agent,sell,short,0.06206631487512084,,0,none,
+2025-07-03T19:38:10.626995,FARTCOINUSDT,agent_qfps,open,buy,0.867,BUY,0.4385,weak,
+2025-07-03T19:38:10.626995,FARTCOINUSDT,momentum_agent,open,BUY,0.01,BUY,0.4385,weak,Positive momentum breakout
+2025-07-03T19:38:10.626995,FARTCOINUSDT,pulse_agent,open,SELL,0.24,BUY,0.4385,weak,Downward pulse momentum
+2025-07-03T19:38:10.626995,FARTCOINUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.4385,weak,Warp dump signal
+2025-07-03T19:38:10.626995,FARTCOINUSDT,vwap_agent,buy,long,0.1061056871797645,BUY,0.4385,weak,
+2025-07-03T19:38:12.001026,ETCUSDT,agent_qfps,open,buy,1.0,BUY,0.478,weak,
+2025-07-03T19:38:12.001026,ETCUSDT,mean_reversion_agent,open,BUY,0.184,BUY,0.478,weak,Z-score low: -1.87
+2025-07-03T19:38:12.001026,ETCUSDT,momentum_agent,open,SELL,0.0,BUY,0.478,weak,Negative momentum breakdown
+2025-07-03T19:38:12.001026,ETCUSDT,pulse_agent,open,SELL,0.07,BUY,0.478,weak,Downward pulse momentum
+2025-07-03T19:38:12.001026,ETCUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.478,weak,Warp dump signal
+2025-07-03T19:38:12.001026,ETCUSDT,rsi_2_agent,open,BUY,0.25,BUY,0.478,weak,RSI(2) Oversold
+2025-07-03T19:38:12.001026,ETCUSDT,vwap_agent,sell,short,0.06864794638567497,BUY,0.478,weak,
+2025-07-03T19:38:14.049158,ICNTUSDT,agent_qfps,open,sell,0.971,SELL,0.42775,weak,
+2025-07-03T19:38:14.049158,ICNTUSDT,momentum_agent,open,SELL,0.01,SELL,0.42775,weak,Negative momentum breakdown
+2025-07-03T19:38:14.049158,ICNTUSDT,pulse_agent,open,SELL,0.72,SELL,0.42775,weak,Downward pulse momentum
+2025-07-03T19:38:14.049158,ICNTUSDT,pulse_warp_agent,open,SELL,0.01,SELL,0.42775,weak,Warp dump signal
+2025-07-03T19:38:14.049158,ICNTUSDT,vwap_agent,sell,short,0.817403271977415,SELL,0.42775,weak,
+2025-07-03T19:38:15.615220,LINKUSDT,agent_qfps,open,sell,1.0,BUY,0.5,weak,
+2025-07-03T19:38:15.615220,LINKUSDT,macd_agent,sell,sell,0.0001,BUY,0.5,weak,MACD bearish crossover
+2025-07-03T19:38:15.615220,LINKUSDT,momentum_agent,open,BUY,0.0,BUY,0.5,weak,Positive momentum breakout
+2025-07-03T19:38:15.615220,LINKUSDT,pulse_agent,open,SELL,0.13,BUY,0.5,weak,Downward pulse momentum
+2025-07-03T19:38:15.615220,LINKUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.5,weak,Warp dump signal
+2025-07-03T19:38:15.615220,LINKUSDT,rsi_2_agent,open,BUY,1.0,BUY,0.5,weak,RSI(2) Oversold
+2025-07-03T19:38:15.615220,LINKUSDT,vwap_agent,sell,short,0.061077161930776266,BUY,0.5,weak,
+2025-07-03T19:38:16.960352,YFIUSDT,agent_qfps,hold,hold,0.0,,0,none,
+2025-07-03T19:38:16.960352,YFIUSDT,momentum_agent,open,BUY,0.0,,0,none,Positive momentum breakout
+2025-07-03T19:38:16.960352,YFIUSDT,vwap_agent,buy,long,0.018643904845262897,,0,none,
+2025-07-03T19:38:17.646238,PAXGUSDT,agent_qfps,hold,hold,0.0,SELL,0.5725806451612848,strong,
+2025-07-03T19:38:17.646238,PAXGUSDT,momentum_agent,open,SELL,0.0,SELL,0.5725806451612848,strong,Negative momentum breakdown
+2025-07-03T19:38:17.646238,PAXGUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.5725806451612848,strong,RSI(2) Overbought
+2025-07-03T19:38:17.646238,PAXGUSDT,vortex_agent,open,SELL,0.7177419354838547,SELL,0.5725806451612848,strong,Vortex bearish crossover
+2025-07-03T19:38:17.646238,PAXGUSDT,vwap_agent,hold,long,0.0,SELL,0.5725806451612848,strong,
+2025-07-03T19:38:18.984460,ORDIUSDT,agent_qfps,open,buy,0.59,BUY,0.295,weak,
+2025-07-03T19:38:18.984460,ORDIUSDT,momentum_agent,open,BUY,0.0,BUY,0.295,weak,Positive momentum breakout
+2025-07-03T19:38:18.984460,ORDIUSDT,pulse_agent,open,SELL,0.02,BUY,0.295,weak,Downward pulse momentum
+2025-07-03T19:38:18.984460,ORDIUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.295,weak,Warp dump signal
+2025-07-03T19:38:18.984460,ORDIUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.295,weak,Bounce in Downtrend
+2025-07-03T19:38:18.984460,ORDIUSDT,vwap_agent,sell,short,0.061832688676076,BUY,0.295,weak,
+2025-07-03T19:38:20.322151,WIFUSDT,agent_qfps,open,buy,0.549,BUY,0.2795,weak,
+2025-07-03T19:38:20.322151,WIFUSDT,momentum_agent,open,BUY,0.01,BUY,0.2795,weak,Positive momentum breakout
+2025-07-03T19:38:20.322151,WIFUSDT,pulse_agent,open,SELL,0.09,BUY,0.2795,weak,Downward pulse momentum
+2025-07-03T19:38:20.322151,WIFUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.2795,weak,Warp dump signal
+2025-07-03T19:38:20.322151,WIFUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.2795,weak,Bounce in Downtrend
+2025-07-03T19:38:20.322151,WIFUSDT,vwap_agent,sell,short,0.06567844603379291,BUY,0.2795,weak,
+2025-07-03T19:38:21.671075,COMPUSDT,agent_qfps,open,sell,0.596,SELL,0.21533333333333335,weak,
+2025-07-03T19:38:21.671075,COMPUSDT,pulse_agent,open,SELL,0.05,SELL,0.21533333333333335,weak,Downward pulse momentum
+2025-07-03T19:38:21.671075,COMPUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.21533333333333335,weak,Warp dump signal
+2025-07-03T19:38:21.671075,COMPUSDT,vwap_agent,sell,short,0.12080058353757438,SELL,0.21533333333333335,weak,
+2025-07-03T19:38:23.015542,RONINUSDT,agent_qfps,open,buy,0.383,,0,none,
+2025-07-03T19:38:23.015542,RONINUSDT,mean_reversion_agent,open,SELL,0.128,,0,none,Z-score high: 1.76
+2025-07-03T19:38:23.015542,RONINUSDT,momentum_agent,open,BUY,0.02,,0,none,Positive momentum breakout
+2025-07-03T19:38:23.015542,RONINUSDT,pulse_warp_agent,open,BUY,0.0,,0,none,Warp pulse spike (volatility + momentum)
+2025-07-03T19:38:23.015542,RONINUSDT,rsi_agent,open,SELL,0.1033,,0,none,RSI overbought drop (73.10)
+2025-07-03T19:38:23.015542,RONINUSDT,vwap_agent,sell,short,0.07432970104677689,,0,none,
+2025-07-03T19:38:23.700826,XRPUSDT,agent_qfps,open,sell,1.0,SELL,0.275,weak,
+2025-07-03T19:38:23.700826,XRPUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.275,weak,Z-score neutral
+2025-07-03T19:38:23.700826,XRPUSDT,momentum_agent,open,SELL,0.0,SELL,0.275,weak,Negative momentum breakdown
+2025-07-03T19:38:23.700826,XRPUSDT,pulse_agent,open,SELL,0.1,SELL,0.275,weak,Downward pulse momentum
+2025-07-03T19:38:23.700826,XRPUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.275,weak,Warp dump signal
+2025-07-03T19:38:23.700826,XRPUSDT,vwap_agent,sell,short,0.010916955205105218,SELL,0.275,weak,
+2025-07-03T19:38:25.048474,ARUSDT,agent_qfps,open,buy,1.0,BUY,0.505,weak,
+2025-07-03T19:38:25.048474,ARUSDT,momentum_agent,open,BUY,0.01,BUY,0.505,weak,Positive momentum breakout
+2025-07-03T19:38:25.048474,ARUSDT,vwap_agent,buy,long,0.054729517813032466,BUY,0.505,weak,
+2025-07-03T19:38:27.072585,SPXUSDT,agent_qfps,open,buy,0.593,,0,none,
+2025-07-03T19:38:27.072585,SPXUSDT,mean_reversion_agent,hold,HOLD,0.0,,0,none,Z-score neutral
+2025-07-03T19:38:27.072585,SPXUSDT,pulse_agent,open,SELL,0.22,,0,none,Downward pulse momentum
+2025-07-03T19:38:27.072585,SPXUSDT,pulse_warp_agent,open,SELL,0.0,,0,none,Warp dump signal
+2025-07-03T19:38:27.072585,SPXUSDT,vwap_agent,sell,short,0.0734125984288383,,0,none,
+2025-07-03T19:38:27.768532,RENDERUSDT,agent_qfps,open,buy,1.0,BUY,0.505,weak,
+2025-07-03T19:38:27.768532,RENDERUSDT,momentum_agent,open,BUY,0.01,BUY,0.505,weak,Positive momentum breakout
+2025-07-03T19:38:27.768532,RENDERUSDT,trend_pullback_agent,open,SELL,0.8,BUY,0.505,weak,Bounce in Downtrend
+2025-07-03T19:38:27.768532,RENDERUSDT,vwap_agent,sell,short,0.06922258856797234,BUY,0.505,weak,
+2025-07-03T19:38:29.121007,VIRTUALUSDT,agent_qfps,open,sell,1.0,SELL,0.37333333333333335,weak,
+2025-07-03T19:38:29.121007,VIRTUALUSDT,macd_agent,sell,sell,0.0,SELL,0.37333333333333335,weak,MACD bearish crossover
+2025-07-03T19:38:29.121007,VIRTUALUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.37333333333333335,weak,Z-score neutral
+2025-07-03T19:38:29.121007,VIRTUALUSDT,momentum_agent,open,BUY,0.01,SELL,0.37333333333333335,weak,Positive momentum breakout
+2025-07-03T19:38:29.121007,VIRTUALUSDT,pulse_agent,open,SELL,0.12,SELL,0.37333333333333335,weak,Downward pulse momentum
+2025-07-03T19:38:29.121007,VIRTUALUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.37333333333333335,weak,Warp dump signal
+2025-07-03T19:38:29.121007,VIRTUALUSDT,vwap_agent,hold,long,0.0,SELL,0.37333333333333335,weak,
+2025-07-03T19:38:30.476402,QNTUSDT,agent_qfps,open,sell,1.0,,0,none,
+2025-07-03T19:38:30.476402,QNTUSDT,momentum_agent,open,BUY,0.01,,0,none,Positive momentum breakout
+2025-07-03T19:38:30.476402,QNTUSDT,vwap_agent,sell,short,0.018287099001107133,,0,none,
+2025-07-03T19:43:51.804860,BTCUSDT,agent_qfps,open,buy,1.0,SELL,0.3433333333333333,weak,
+2025-07-03T19:43:51.804860,BTCUSDT,pulse_agent,open,SELL,0.03,SELL,0.3433333333333333,weak,Downward pulse momentum
+2025-07-03T19:43:51.804860,BTCUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.3433333333333333,weak,Warp dump signal
+2025-07-03T19:43:51.804860,BTCUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.3433333333333333,weak,RSI(2) Overbought
+2025-07-03T19:43:51.804860,BTCUSDT,vwap_agent,buy,long,0.014787957488246928,SELL,0.3433333333333333,weak,
+2025-07-03T19:43:53.533367,TAOUSDT,agent_qfps,open,sell,1.0,BUY,0.3466370106761584,weak,
+2025-07-03T19:43:53.533367,TAOUSDT,momentum_agent,open,BUY,0.01,BUY,0.3466370106761584,weak,Positive momentum breakout
+2025-07-03T19:43:53.533367,TAOUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.3466370106761584,weak,RSI(2) Overbought
+2025-07-03T19:43:53.533367,TAOUSDT,vortex_agent,open,BUY,0.6832740213523167,BUY,0.3466370106761584,weak,Vortex bullish crossover
+2025-07-03T19:43:53.533367,TAOUSDT,vwap_agent,buy,long,0.03830213532355059,BUY,0.3466370106761584,weak,
+2025-07-03T19:43:55.124227,XMRUSDT,agent_qfps,open,buy,1.0,BUY,0.587,strong,
+2025-07-03T19:43:55.124227,XMRUSDT,mean_reversion_agent,open,BUY,0.174,BUY,0.587,strong,Z-score low: -1.85
+2025-07-03T19:43:55.124227,XMRUSDT,momentum_agent,open,SELL,0.01,BUY,0.587,strong,Negative momentum breakdown
+2025-07-03T19:43:55.124227,XMRUSDT,pulse_agent,open,SELL,0.25,BUY,0.587,strong,Downward pulse momentum
+2025-07-03T19:43:55.124227,XMRUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.587,strong,Warp dump signal
+2025-07-03T19:43:55.124227,XMRUSDT,vwap_agent,sell,short,0.18066726254098456,BUY,0.587,strong,
+2025-07-03T19:43:57.318712,MKRUSDT,agent_qfps,open,buy,1.0,BUY,0.5,weak,
+2025-07-03T19:43:57.318712,MKRUSDT,momentum_agent,open,BUY,0.0,BUY,0.5,weak,Positive momentum breakout
+2025-07-03T19:43:57.318712,MKRUSDT,pulse_agent,open,SELL,0.07,BUY,0.5,weak,Downward pulse momentum
+2025-07-03T19:43:57.318712,MKRUSDT,pulse_warp_agent,open,SELL,0.0,BUY,0.5,weak,Warp dump signal
+2025-07-03T19:43:57.318712,MKRUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.5,weak,RSI(2) Overbought
+2025-07-03T19:43:57.318712,MKRUSDT,vwap_agent,sell,short,0.055295513701750135,BUY,0.5,weak,
+2025-07-03T19:43:59.246850,SOLUSDT,agent_qfps,hold,hold,0.042,SELL,0.4575,weak,
+2025-07-03T19:43:59.246850,SOLUSDT,pulse_agent,open,SELL,0.03,SELL,0.4575,weak,Downward pulse momentum
+2025-07-03T19:43:59.246850,SOLUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.4575,weak,Warp dump signal
+2025-07-03T19:43:59.246850,SOLUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.4575,weak,RSI(2) Overbought
+2025-07-03T19:43:59.246850,SOLUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.4575,weak,Bounce in Downtrend
+2025-07-03T19:43:59.246850,SOLUSDT,vwap_agent,sell,short,0.04527976529703486,SELL,0.4575,weak,
+2025-07-03T19:44:00.935187,BNBUSDT,agent_qfps,open,sell,1.0,SELL,0.5025,weak,
+2025-07-03T19:44:00.935187,BNBUSDT,pulse_agent,open,SELL,0.01,SELL,0.5025,weak,Downward pulse momentum
+2025-07-03T19:44:00.935187,BNBUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.5025,weak,Warp dump signal
+2025-07-03T19:44:00.935187,BNBUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.5025,weak,RSI(2) Overbought
+2025-07-03T19:44:00.935187,BNBUSDT,vortex_agent,open,BUY,0.891203703703649,SELL,0.5025,weak,Vortex bullish crossover
+2025-07-03T19:44:00.935187,BNBUSDT,vwap_agent,buy,long,0.020204989323169602,SELL,0.5025,weak,
+2025-07-03T19:44:02.382087,BCHUSDT,agent_qfps,open,buy,0.226,SELL,0.255,weak,
+2025-07-03T19:44:02.382087,BCHUSDT,mean_reversion_agent,hold,HOLD,0.0,SELL,0.255,weak,Z-score neutral
+2025-07-03T19:44:02.382087,BCHUSDT,momentum_agent,open,SELL,0.0,SELL,0.255,weak,Negative momentum breakdown
+2025-07-03T19:44:02.382087,BCHUSDT,pulse_agent,open,SELL,0.02,SELL,0.255,weak,Downward pulse momentum
+2025-07-03T19:44:02.382087,BCHUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.255,weak,Warp dump signal
+2025-07-03T19:44:02.382087,BCHUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.255,weak,RSI(2) Overbought
+2025-07-03T19:44:02.382087,BCHUSDT,vwap_agent,sell,short,0.03548217051365869,SELL,0.255,weak,
+2025-07-03T19:44:03.823046,INJUSDT,agent_qfps,open,sell,1.0,SELL,0.5619999999999999,strong,
+2025-07-03T19:44:03.823046,INJUSDT,momentum_agent,open,BUY,0.01,SELL,0.5619999999999999,strong,Positive momentum breakout
+2025-07-03T19:44:03.823046,INJUSDT,pulse_agent,open,SELL,0.01,SELL,0.5619999999999999,strong,Downward pulse momentum
+2025-07-03T19:44:03.823046,INJUSDT,pulse_warp_agent,open,SELL,0.0,SELL,0.5619999999999999,strong,Warp dump signal
+2025-07-03T19:44:03.823046,INJUSDT,rsi_2_agent,open,SELL,1.0,SELL,0.5619999999999999,strong,RSI(2) Overbought
+2025-07-03T19:44:03.823046,INJUSDT,trend_pullback_agent,open,SELL,0.8,SELL,0.5619999999999999,strong,Bounce in Downtrend
+2025-07-03T19:44:03.823046,INJUSDT,vwap_agent,sell,short,0.04800471728599687,SELL,0.5619999999999999,strong,
+2025-07-03T19:44:05.252121,TRBUSDT,agent_qfps,open,sell,0.159,BUY,0.348,weak,
+2025-07-03T19:44:05.252121,TRBUSDT,cosmic_agent,buy,buy,1.0,BUY,0.348,weak,Confluence (Trend+RSI+Breakout+Volume): 4/4
+2025-07-03T19:44:05.252121,TRBUSDT,mean_reversion_agent,open,SELL,0.161,BUY,0.348,weak,Z-score high: 1.82
+2025-07-03T19:44:05.252121,TRBUSDT,momentum_agent,open,BUY,0.01,BUY,0.348,weak,Positive momentum breakout
+2025-07-03T19:44:05.252121,TRBUSDT,pulse_agent,open,BUY,0.18,BUY,0.348,weak,Upward pulse momentum
+2025-07-03T19:44:05.252121,TRBUSDT,pulse_warp_agent,open,BUY,0.0,BUY,0.348,weak,Warp pulse spike (volatility + momentum)
+2025-07-03T19:44:05.252121,TRBUSDT,rsi_2_agent,open,SELL,1.0,BUY,0.348,weak,RSI(2) Overbought
+2025-07-03T19:44:05.252121,TRBUSDT,volatility_breakout_agent,open,BUY,0.75,BUY,0.348,weak,Price broke above upper volatility band
+2025-07-03T19:44:05.252121,TRBUSDT,vwap_agent,buy,long,0.032497267255334764,BUY,0.348,weak,
+2025-07-03T19:44:05.252121,TRBUSDT,vwap_bounce_agent,open,BUY,0.8,BUY,0.348,weak,VWAP Bounce Up

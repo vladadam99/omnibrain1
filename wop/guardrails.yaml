@@ -1,0 +1,29 @@
+# UTF-8
+gates:
+  backtest:
+    min_profit_factor: 1.60
+    min_winrate: 0.58
+    max_drawdown_frac: 0.35
+    min_pnl_total: 0.0
+    min_sharpe_like: 0.5
+  paper2d:
+    min_profit_factor: 1.30
+    min_winrate: 0.55
+    max_intraday_dd_frac: 0.20
+    min_pnl_total: 0.0
+
+promotion:
+  require_two_30d_passes: true
+  paper_duration_hours: 48
+  approval_timeout_hours: 24
+
+scoring:
+  weight_pf: 2.0
+  weight_wr: 1.0
+  penalty_dd: 0.8
+
+safety:
+  max_daily_loss_usdt: 150
+  max_loss_streak: 5
+  dd_pause_frac: 0.25
+  stepdown_leverage_frac: 0.5

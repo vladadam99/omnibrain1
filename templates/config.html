@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>⚙️ Configuration Panel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script>
+        function saveConfig() {
+            const form = document.getElementById('config-form');
+            const formData = new FormData(form);
+            const jsonData = {};
+            formData.forEach((value, key) => {
+                if (value.toLowerCase() === "true" || value.toLowerCase() === "false") {
+                    jsonData[key] = (value.toLowerCase() === "true");
+                } else if (!isNaN(value) && value.trim() !== "") {
+                    jsonData[key] = Number(value);
+                } else {
+                    jsonData[key] = value;
+                }
+            });
+            fetch('/save_config', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(jsonData)
+            }).then(res => res.text()).then(msg => alert(msg));
+        }
+    </script>
+</head>
+<body style="background-color:#111; color:white; padding:2em;">
+    <h1>⚙️ Configuration Panel</h1>
+    <form id="config-form">
+        {% for key, value in config.items() %}
+        <div class="mb-3">
+            <label class="form-label">{{ key }}</label>
+            <input type="text" class="form-control" name="{{ key }}" value="{{ value }}">
+        </div>
+        {% endfor %}
+        <button type="button" class="btn btn-success" onclick="saveConfig()">💾 Save Config</button>
+        <a href="/" class="btn btn-secondary ms-2">← Back to Dashboard</a>
+    </form>
+</body>
+</html>

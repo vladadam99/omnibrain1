@@ -1,0 +1,17 @@
+# --- live_config.yaml ---
+mode: backtest        # Options: backtest, live
+symbol: BTCUSDT
+interval: 1h
+capital: 100000.0
+position_size_pct: 0.05   # 5% of capital per trade
+
+# Strategy agent toggles (enable/disable individually)
+agents:
+  MACD_RSI: true
+  Momentum: true
+  VWAP: true
+  Bollinger: true
+  SuperTrend: true
+  RSI: true
+  ADX: true
+  MACDCross: true

@@ -1,0 +1,200 @@
+{
+  "BTCUSDT::RSI": {
+    "winrate": 1.0,
+    "avg_pnl": 0.00168,
+    "confidence": 0.893,
+    "trades": 1
+  },
+  "BTCUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 198
+  },
+  "BTCUSDT::COSMIC": {
+    "winrate": 0.643,
+    "avg_pnl": 0.00068,
+    "confidence": 1.0,
+    "trades": 14
+  },
+  "BTCUSDT_15m_500_minutes::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 235
+  },
+  "BTCUSDT_15m_500_minutes::COSMIC": {
+    "winrate": 0.4,
+    "avg_pnl": -0.00058,
+    "confidence": 1.0,
+    "trades": 5
+  },
+  "BTCUSDT_1h_2_days::RSI": {
+    "winrate": 1.0,
+    "avg_pnl": 0.00168,
+    "confidence": 0.893,
+    "trades": 1
+  },
+  "BTCUSDT_1h_2_days::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.823,
+    "trades": 1
+  },
+  "BTCUSDT_1h_2_days::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 193
+  },
+  "BTCUSDT_1h_2_days::COSMIC": {
+    "winrate": 0.455,
+    "avg_pnl": 0.00144,
+    "confidence": 1.0,
+    "trades": 11
+  },
+  "BTCUSDT_1h_30_days::RSI": {
+    "winrate": 1.0,
+    "avg_pnl": 0.00168,
+    "confidence": 0.893,
+    "trades": 1
+  },
+  "BTCUSDT_1h_30_days::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 142
+  },
+  "BTCUSDT_1h_30_days::COSMIC": {
+    "winrate": 0.5,
+    "avg_pnl": 0.00156,
+    "confidence": 1.0,
+    "trades": 8
+  },
+  "BTCUSDT_1h_500_minutes::RSI": {
+    "winrate": 1.0,
+    "avg_pnl": 0.00168,
+    "confidence": 0.893,
+    "trades": 1
+  },
+  "BTCUSDT_1h_500_minutes::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.823,
+    "trades": 1
+  },
+  "BTCUSDT_1h_500_minutes::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 193
+  },
+  "BTCUSDT_1h_500_minutes::COSMIC": {
+    "winrate": 0.455,
+    "avg_pnl": 0.00144,
+    "confidence": 1.0,
+    "trades": 11
+  },
+  "BTCUSDT_1m_30_min::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 191
+  },
+  "BTCUSDT_1m_30_min::COSMIC": {
+    "winrate": 0.385,
+    "avg_pnl": 6e-05,
+    "confidence": 1.0,
+    "trades": 13
+  },
+  "DOGEUSDT::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.995,
+    "trades": 758
+  },
+  "DOGEUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 191
+  },
+  "DOGEUSDT::COSMIC": {
+    "winrate": 0.143,
+    "avg_pnl": -0.00884,
+    "confidence": 1.0,
+    "trades": 7
+  },
+  "ETHUSDT::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.98,
+    "trades": 56
+  },
+  "ETHUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 189
+  },
+  "ETHUSDT::COSMIC": {
+    "winrate": 0.833,
+    "avg_pnl": 0.0051,
+    "confidence": 1.0,
+    "trades": 6
+  },
+  "PEPEUSDT::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.991,
+    "trades": 716
+  },
+  "PEPEUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 189
+  },
+  "PEPEUSDT::COSMIC": {
+    "winrate": 0.556,
+    "avg_pnl": 0.00228,
+    "confidence": 1.0,
+    "trades": 9
+  },
+  "RNDRUSDT::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.971,
+    "trades": 470
+  },
+  "RNDRUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 221
+  },
+  "RNDRUSDT::COSMIC": {
+    "winrate": 0.625,
+    "avg_pnl": 0.00574,
+    "confidence": 1.0,
+    "trades": 8
+  },
+  "SOLUSDT::VWAP": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 0.946,
+    "trades": 438
+  },
+  "SOLUSDT::BREAKOUT": {
+    "winrate": 0.0,
+    "avg_pnl": 0.0,
+    "confidence": 100.0,
+    "trades": 218
+  },
+  "SOLUSDT::COSMIC": {
+    "winrate": 0.571,
+    "avg_pnl": -0.0009,
+    "confidence": 1.0,
+    "trades": 7
+  }
+}

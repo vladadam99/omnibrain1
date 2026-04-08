@@ -1,0 +1,47 @@
+{
+  "HUSDT": {
+    "agent": "breakout_agent",
+    "tf": "15m",
+    "score": 100
+  },
+  "AWEUSDT": {
+    "agent": "vwap_agent",
+    "tf": "1h",
+    "score": 0.23628536672278755
+  },
+  "SQDUSDT": {
+    "agent": "breakout_agent",
+    "tf": "3m",
+    "score": 100
+  },
+  "PORTALUSDT": {
+    "agent": "breakout_agent",
+    "tf": "15m",
+    "score": 100
+  },
+  "1000000BOBUSDT": {
+    "agent": "vwap_agent",
+    "tf": "1h",
+    "score": 1.0
+  },
+  "SKYAIUSDT": {
+    "agent": "vwap_agent",
+    "tf": "1h",
+    "score": 0.7119755541787393
+  },
+  "GRASSUSDT": {
+    "agent": "vwap_agent",
+    "tf": "15m",
+    "score": 0.8665108264911169
+  },
+  "PLUMEUSDT": {
+    "agent": "breakout_agent",
+    "tf": "15m",
+    "score": 100
+  },
+  "SWARMSUSDT": {
+    "agent": "breakout_agent",
+    "tf": "1h",
+    "score": 100
+  }
+}

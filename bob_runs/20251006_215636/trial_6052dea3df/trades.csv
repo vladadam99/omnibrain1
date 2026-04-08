@@ -1,0 +1,2 @@
+time,symbol,action,side,price,qty,agent,pnl,note
+2025-10-06T21:50:00+00:00,DOGEUSDT,OPEN,BUY,0.26805000,1094.538332,apex_supertrend_adaptive,0.00,conf=0.977

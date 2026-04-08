@@ -1,0 +1,20 @@
+mode: live  # or 'backtest'
+
+symbol: "BTCUSDT"
+interval: "1h"
+use_testnet: true  # Set to false for real trading
+
+binance:
+  api_key: "Ie1VAgbcq6SOU1RiMzosUPavQTULDT3P1bIfxMYpkzSWr0LGhhwTcYvkaSRUHRqC"
+  api_secret: "1f6oobRF2GFxohInLbYsKQpdgXOlT1vTi6cJxU7qizdTIrWTB9jEHXGpK8cDAGQk"
+  trade_qty: 0.001
+
+agents:
+  MACD_RSI: true
+  Bollinger: true
+  RSI: true
+  SuperTrend: true
+  Momentum: true
+  VWAP: true
+  MACDCross: true
+  ADX: true

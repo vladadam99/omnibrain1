@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OMNIBRAIN GODMODE Backtest</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.min.css">
+    <link href="https://unpkg.com/tabulator-tables@5.4.3/dist/css/tabulator_midnight.min.css" rel="stylesheet">
+    <style>
+        body { background:#090d12; color:#e6e6e6; font-family:'Segoe UI',Arial,sans-serif; margin:0;}
+        .container { max-width:1300px; margin:30px auto 0; background:#181f29; border-radius:18px; box-shadow:0 10px 60px #000c; padding:2.5em 2em 2.5em 2em;}
+        h1 {font-size:2.3em;font-weight:700;display:flex;align-items:center;gap:.5em;}
+        .fixed-bar {position:sticky;top:0;z-index:9;background:#181f29;padding:1em 0 1em 0;}
+        .form-row {display:flex;gap:1.8em;flex-wrap:wrap;align-items:end;}
+        label {display:block;margin-bottom:0.6em;}
+        select,input[type=date],input[type=text] {background:#242c36;color:#e6e6e6;border:1px solid #283349;padding:0.65em 1em;border-radius:8px;min-width:150px;font-size:1.1em;}
+        button {background:#18be75;color:white;border:none;padding:0.72em 2.2em;border-radius:8px;font-size:1.1em;font-weight:600;cursor:pointer;}
+        button:hover {background:#26d989;}
+        .flex-row {display:flex;gap:2em;flex-wrap:wrap;}
+        .chart-panel {flex:3;background:#1d232e;border-radius:18px;padding:2em;min-width:380px;}
+        .stats-panel {flex:1;background:#232c3d;border-radius:18px;padding:2em 1.2em;min-width:270px;}
+        .stat-row {margin-bottom:1.05em;font-size:1.16em;display:flex;justify-content:space-between;}
+        .trade-table-container {background:#232c3d;border-radius:16px;padding:1.2em;margin-top:2em;}
+        .dist-chart-panel {background:#212c38;border-radius:12px;padding:1.2em;margin:1em 0;}
+        .loader {display:none;border:6px solid #1d232e;border-top:6px solid #58a6ff;border-radius:50%;width:40px;height:40px;animation:spin 1s linear infinite;margin:1em auto;}
+        @keyframes spin {100% {transform: rotate(360deg);}}
+        a {color:#58a6ff;text-decoration:none;}
+        a:hover {text-decoration:underline;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="fixed-bar">
+        <a href="/" style="margin-bottom:1em;display:inline-block;">← Back to Dashboard</a>
+        <h1>🧠 Backtest GODMODE</h1>
+        <form id="backtestForm">
+            <div class="form-row">
+                <div>
+                    <label for="strategySelect">Strategy:</label>
+                    <select id="strategySelect" multiple size="3" style="height:3.2em;">
+                        {% for name in config.strategies %}
+                            <option value="{{ name }}">{{ name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label for="symbolInput">Symbol:</label>
+                    <input type="text" id="symbolInput" value="BTC/USDT" style="width:140px;" />
+                </div>
+                <div>
+                    <label for="exchangeSelect">Exchange:</label>
+                    <select id="exchangeSelect">
+                        <option value="binance">Binance</option>
+                        <option value="kucoin">KuCoin</option>
+                        <option value="bybit">Bybit</option>
+                        <option value="yahoo">Yahoo (Stocks)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="timeframeSelect">Timeframe:</label>
+                    <select id="timeframeSelect">
+                        <option value="1m">1 Minute</option>
+                        <option value="5m">5 Minutes</option>
+                        <option value="15m">15 Minutes</option>
+                        <option value="1h" selected>1 Hour</option>
+                        <option value="4h">4 Hours</option>
+                        <option value="1d">1 Day</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate"/>
+                </div>
+                <div>
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate"/>
+                </div>
+                <div>
+                    <button type="submit" id="runBtn">Run Backtest</button>
+                </div>
+                <div>
+                    <button type="button" id="downloadBtn">Download CSV</button>
+                </div>
+            </div>
+        </form>
+        <div class="loader" id="loader"></div>
+    </div>
+    <div class="flex-row">
+        <div class="chart-panel">
+            <canvas id="equityChart" height="110"></canvas>
+            <div class="dist-chart-panel"><canvas id="returnsHist" height="45"></canvas></div>
+        </div>
+        <div class="stats-panel" id="statsPanel">
+            <div class="stat-row"><b>Trades:</b> <span id="statTrades">-</span></div>
+            <div class="stat-row"><b>Win Rate:</b> <span id="statWinRate">-</span></div>
+            <div class="stat-row"><b>PnL:</b> <span id="statPnL">-</span></div>
+            <div class="stat-row"><b>Sharpe:</b> <span id="statSharpe">-</span></div>
+            <div class="stat-row"><b>Sortino:</b> <span id="statSortino">-</span></div>
+            <div class="stat-row"><b>Max DD:</b> <span id="statMaxDD">-</span></div>
+            <div class="stat-row"><b>Profit Factor:</b> <span id="statPF">-</span></div>
+            <div class="stat-row"><b>Expectancy:</b> <span id="statExpect">-</span></div>
+            <div class="stat-row"><b>Return:</b> <span id="statReturn">-</span></div>
+            <div class="stat-row"><b>Best Streak:</b> <span id="statBestStreak">-</span></div>
+            <div class="stat-row"><b>Worst Streak:</b> <span id="statWorstStreak">-</span></div>
+        </div>
+    </div>
+    <div class="chart-panel">
+        <canvas id="drawdownChart" height="60"></canvas>
+    </div>
+    <div class="trade-table-container">
+        <div id="tradeTable"></div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/tabulator-tables@5.4.3/dist/js/tabulator.min.js"></script>
+<script>
+function nFmt(x) { return x==null ? '-' : x.toLocaleString(undefined, {maximumFractionDigits:2}); }
+
+let tradeCache = [];
+
+document.getElementById('backtestForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    document.getElementById('loader').style.display = 'block';
+    let stratEls = document.getElementById('strategySelect').selectedOptions;
+    let strats = Array.from(stratEls).map(opt => opt.value);
+    let symbol = document.getElementById('symbolInput').value;
+    let exchange = document.getElementById('exchangeSelect').value;
+    let timeframe = document.getElementById('timeframeSelect').value;
+    let start = document.getElementById('startDate').value;
+    let end   = document.getElementById('endDate').value;
+    try {
+        let url = `/api/backtest?${strats.map(s => `strategy=${encodeURIComponent(s)}`).join('&')}` +
+                  `&symbol=${encodeURIComponent(symbol)}` +
+                  `&timeframe=${encodeURIComponent(timeframe)}` +
+                  `&exch=${encodeURIComponent(exchange)}` +
+                  `&start=${start}&end=${end}`;
+        let result = await fetch(url).then(r=>r.json());
+        document.getElementById('loader').style.display = 'none';
+
+        // Show all strategies on chart (colorful)
+        const colors = ["#19fb9b","#2e9afe","#e84545","#faae2b","#f1556c","#fd8b2c","#6c47ff"];
+        let ctx = document.getElementById('equityChart').getContext('2d');
+        ctx.clearRect(0, 0, 1200, 600);
+        let chartData = [];
+        let i = 0;
+        for (const strat in result) {
+            let eq = result[strat].equity;
+            let times = Object.keys(eq);
+            let vals = Object.values(eq);
+            chartData.push({
+                label: strat,
+                data: vals,
+                borderColor: colors[i % colors.length],
+                backgroundColor: colors[i % colors.length] + "22",
+                fill: true,
+                tension: .18
+            });
+            i++;
+        }
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Object.keys(result[Object.keys(result)[0]].equity),
+                datasets: chartData
+            },
+            options: { responsive:true, plugins:{legend:{display:true}}, interaction:{mode:'index',intersect:false} }
+        });
+
+        // Use first strat's stats for now (extend as you want)
+        let firstStrat = Object.keys(result)[0];
+        let eq = Object.values(result[firstStrat].equity);
+        let dd = Object.values(result[firstStrat].drawdown);
+        let trades = result[firstStrat].trades || [];
+        tradeCache = trades;
+        let wins = trades.filter(t => (t.result||'').toLowerCase()==='win').length;
+        let losses = trades.filter(t => (t.result||'').toLowerCase()==='loss').length;
+        let pnl = trades.reduce((a,t) => a + (parseFloat(t.pnl)||0), 0);
+        let avgWin = wins ? trades.filter(t => (t.result||'').toLowerCase()==='win').reduce((a,t)=>a+(parseFloat(t.pnl)||0),0)/wins : 0;
+        let avgLoss = losses ? trades.filter(t => (t.result||'').toLowerCase()==='loss').reduce((a,t)=>a+(parseFloat(t.pnl)||0),0)/losses : 0;
+        let profitFactor = avgLoss ? Math.abs(avgWin/avgLoss) : '-';
+        let returnsPct = eq.length ? ((eq[eq.length-1] - eq[0])/eq[0]*100).toFixed(2) : '-';
+        let maxDD = Math.min(...dd);
+        let mean = eq.reduce((a,v)=>a+v,0)/eq.length;
+        let std = Math.sqrt(eq.reduce((a,v)=>a+Math.pow(v-mean,2),0)/eq.length);
+        let negStd = Math.sqrt(eq.filter(v=>v<mean).reduce((a,v)=>a+Math.pow(v-mean,2),0)/(eq.length||1));
+        let sharpe = std ? (((eq[eq.length-1]-eq[0])/std)*Math.sqrt(eq.length)).toFixed(2) : '-';
+        let sortino = negStd ? (((eq[eq.length-1]-eq[0])/negStd)*Math.sqrt(eq.length)).toFixed(2) : '-';
+        // Streaks
+        let bestStreak=0,worstStreak=0,cur=0,lastRes=null;
+        for(let t of trades){
+            if(t.result==='win'){cur=(lastRes==='win'?cur+1:1);if(cur>bestStreak)bestStreak=cur;}
+            else if(t.result==='loss'){cur=(lastRes==='loss'?cur-1:-1);if(cur<worstStreak)worstStreak=cur;}
+            lastRes=t.result;
+        }
+
+        document.getElementById('statTrades').innerText = trades.length;
+        document.getElementById('statWinRate').innerText = trades.length ? ((wins/trades.length*100).toFixed(1)+'%') : '-';
+        document.getElementById('statPnL').innerText = nFmt(pnl);
+        document.getElementById('statSharpe').innerText = sharpe;
+        document.getElementById('statSortino').innerText = sortino;
+        document.getElementById('statMaxDD').innerText = nFmt(maxDD);
+        document.getElementById('statPF').innerText = profitFactor;
+        document.getElementById('statExpect').innerText = (avgWin + avgLoss).toFixed(2);
+        document.getElementById('statReturn').innerText = returnsPct + '%';
+        document.getElementById('statBestStreak').innerText = bestStreak;
+        document.getElementById('statWorstStreak').innerText = worstStreak;
+
+        // Trade table (Tabulator)
+        new Tabulator('#tradeTable', {
+            data: trades,
+            layout: 'fitColumns',
+            columns: [
+                {title:'Time', field:'timestamp', sorter:'string'},
+                {title:'Side', field:'side', sorter:'string'},
+                {title:'Entry', field:'entry', sorter:'number'},
+                {title:'Exit', field:'exit', sorter:'number'},
+                {title:'PnL', field:'pnl', sorter:'number'},
+                {title:'Result', field:'result', sorter:'string'},
+            ],
+            pagination: false,
+            height: 260,
+        });
+
+    } catch(err) {
+        document.getElementById('loader').style.display = 'none';
+        Swal.fire('Error','Backtest failed. See console.','error');
+        console.error(err);
+    }
+});
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    // Download tradeCache as CSV
+    if (!tradeCache.length) return Swal.fire('No trades','Nothing to download.','info');
+    let csv = Object.keys(tradeCache[0]).join(',') + '\\n' +
+        tradeCache.map(row => Object.values(row).join(',')).join('\\n');
+    let blob = new Blob([csv], {type: 'text/csv'});
+    let url = URL.createObjectURL(blob);
+    let a = document.createElement('a');
+    a.href = url; a.download = 'backtest_trades.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 500);
+});
+</script>
+</body>
+</html>

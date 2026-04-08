@@ -1,0 +1,769 @@
+2025-06-13 03:02:39,434 - INFO - \u274c Could not fetch live exchange rate for GBP. Using fallback rate 1.0
+2025-06-13 03:02:41,039 - INFO - \u274c Could not fetch price.
+2025-06-13 03:03:35,658 - INFO - \u274c Could not fetch live exchange rate for GBP. Using fallback rate 1.0
+2025-06-13 03:03:36,079 - INFO - \u274c Could not fetch price.
+2025-06-13 03:05:10,115 - INFO - \u274c Could not fetch live exchange rate for EUR. Using fallback rate 1.0
+2025-06-13 03:05:11,024 - INFO - \u274c Not enough USDT to buy
+2025-06-13 03:11:31,457 - INFO - \u26a0\ufe0f Could not fetch live FX for 8. Using fallback: 1.0
+2025-06-13 03:11:33,426 - INFO - \U0001f4b0 Available balance in XRP: 0
+2025-06-13 03:11:33,427 - INFO - \U0001f680 Preparing to 300 284.981476 XRPUSDT (\u2248 600.0 8)
+2025-06-13 03:11:33,430 - INFO - \u26a0\ufe0f Trade cancelled by user.
+2025-06-13 03:12:23,433 - INFO - \U0001f4b0 Available balance in USDT: 0
+2025-06-13 03:12:23,433 - INFO - \u274c Not enough USDT. You need 200.0 but have 0
+2025-06-13 03:36:58,744 - INFO - \U0001f4b0 Available balance in USDT: 0
+2025-06-13 03:36:58,744 - INFO - \u274c No balance available.
+2025-06-13 04:01:07,895 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:08,200 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:08,584 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:09,416 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:09,841 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:10,243 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:10,710 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:01:14,940 - INFO - \u274c Could not calculate trade. Missing data.
+2025-06-13 04:01:34,953 - INFO - \u274c Could not calculate trade. Missing data.
+2025-06-13 04:02:05,075 - INFO - \u274c Could not calculate trade. Missing data.
+2025-06-13 04:03:43,032 - INFO - \u274c Could not calculate trade. Missing data.
+2025-06-13 04:08:13,362 - INFO - \u274c Not enough XRP balance to SELL.
+2025-06-13 04:08:48,262 - INFO - \u274c Could not fetch price.
+2025-06-13 04:14:34,906 - INFO - \u274c Failed to fetch balance: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+2025-06-13 04:14:35,271 - INFO - \u274c Invalid symbol 'TRUHHGJ'. Check if the trading pair exists on Binance.
+2025-06-13 04:14:35,271 - INFO - \u274c Could not continue. Price fetch failed, likely due to invalid symbol or network error.
+2025-06-13 04:20:32,883 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:33,058 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:33,245 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:33,428 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:33,578 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:35,797 - INFO - \u274c Invalid number. Please enter a numeric value.
+2025-06-13 04:20:38,332 - INFO - \u274c Failed to fetch balance: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+2025-06-13 04:20:38,744 - INFO - \u274c Invalid symbol 'PYTHON OMNIBRAIN_TRADE_EXECUTOR.PY'. Check if the trading pair exists on Binance.
+2025-06-13 04:20:38,745 - INFO - \u274c Could not continue. Price fetch failed, likely due to invalid symbol or network error.
+2025-06-13 04:23:48,639 - INFO - \u274c Failed to fetch balance: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+2025-06-13 04:23:49,016 - INFO - \u274c Not enough USDT balance to BUY. You currently hold 0.0000 USDT.
+2025-06-13 16:15:08,075 - INFO - \u274c Failed to fetch balance: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+2025-06-13 16:15:08,947 - INFO - \u274c Not enough USDT balance to BUY. You currently hold 0.0000 USDT.
+2025-06-13 16:37:47,318 - INFO - \U0001f4ca Auto-sizing: 1.0% of 10000.0000 = 100.00 \u2192 Qty: 0.000947
+2025-06-13 16:37:47,811 - INFO - \u274c Trade Failed [400]: {"code":-1013,"msg":"Filter failure: LOT_SIZE"}
+2025-07-06T20:51:31.357558+00:00 [ERROR] OMNIBRAIN ERROR: name 'get_top_symbols_by_volume' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 457, in main_loop
+    top_symbols = get_top_symbols_by_volume(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_top_symbols_by_volume' is not defined
+
+2025-07-06T20:51:42.645407+00:00 [ERROR] OMNIBRAIN ERROR: name 'get_top_symbols_by_volume' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 457, in main_loop
+    top_symbols = get_top_symbols_by_volume(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_top_symbols_by_volume' is not defined
+
+2025-07-06T20:56:34.026173+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.027341+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.028877+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.029886+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.029886+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.029886+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.031391+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.031391+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.032397+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.032397+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.034124+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.034124+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.035129+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.035129+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.036129+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.036129+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.037129+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.037129+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.038128+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.038128+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.039128+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.039128+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.040129+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.040129+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.040129+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.041635+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.041635+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.042154+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.043161+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:34.044165+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.019642+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.021646+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.023167+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.023722+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.023722+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.024727+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.024727+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.025728+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.025728+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.026728+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.027737+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.027737+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.028731+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.029728+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.030728+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.030728+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.031727+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.032232+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.032232+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.033237+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.033237+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.034237+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.034237+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.035237+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.035237+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.036236+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.037238+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.037238+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.038237+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:40.038237+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:45.995810+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:45.996809+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:45.998816+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:45.999811+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:45.999811+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.001316+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.001316+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.002325+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.002325+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.003525+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.004525+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.004525+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.005525+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.006524+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.007528+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.008524+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.008524+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.009525+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.009525+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.010525+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.010525+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.011525+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.012612+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.012612+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.013621+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.014622+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.014622+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.015619+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.016622+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:46.016622+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.970271+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.971783+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.973332+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.973936+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.973936+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.974956+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.975952+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.976966+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.976966+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.977968+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.978965+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.978965+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.979956+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.979956+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.979956+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.981489+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.982506+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.982506+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.983622+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.984613+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.985612+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.986619+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.987606+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.988618+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.989620+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.989620+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.990620+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.991610+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.992644+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:51.992644+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.965275+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.967268+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.968274+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.969274+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.970274+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.970274+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.971783+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.972404+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.973415+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.974421+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.975431+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.976431+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.976431+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.977426+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.978424+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.979432+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.981441+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.982542+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.982542+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.984153+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.985171+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.985171+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.986183+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.987170+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.988171+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.989171+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.990170+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.991705+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.992260+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:56:57.993280+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.946316+00:00 [ERROR] Could not fetch data for ALPACAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.948320+00:00 [ERROR] Could not fetch data for 1000BONKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.949322+00:00 [ERROR] Could not fetch data for DOGEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.949322+00:00 [ERROR] Could not fetch data for MYXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.950319+00:00 [ERROR] Could not fetch data for 1000PEPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.950319+00:00 [ERROR] Could not fetch data for HUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.952336+00:00 [ERROR] Could not fetch data for TONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.953342+00:00 [ERROR] Could not fetch data for BNXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.953342+00:00 [ERROR] Could not fetch data for WIFUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.954341+00:00 [ERROR] Could not fetch data for SUIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.955343+00:00 [ERROR] Could not fetch data for UNIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.956341+00:00 [ERROR] Could not fetch data for FARTCOINUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.956341+00:00 [ERROR] Could not fetch data for PENGUUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.957341+00:00 [ERROR] Could not fetch data for FUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.957341+00:00 [ERROR] Could not fetch data for ADAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.958341+00:00 [ERROR] Could not fetch data for MOODENGUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.959345+00:00 [ERROR] Could not fetch data for AAVEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.960344+00:00 [ERROR] Could not fetch data for 1000FLOKIUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.960344+00:00 [ERROR] Could not fetch data for BCHUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.961341+00:00 [ERROR] Could not fetch data for HYPEUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.962376+00:00 [ERROR] Could not fetch data for GUNUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.964071+00:00 [ERROR] Could not fetch data for SAHARAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.965078+00:00 [ERROR] Could not fetch data for NEIROUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.965078+00:00 [ERROR] Could not fetch data for SOONUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.966082+00:00 [ERROR] Could not fetch data for LINKUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.967078+00:00 [ERROR] Could not fetch data for TRUMPUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.967078+00:00 [ERROR] Could not fetch data for VIDTUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.968078+00:00 [ERROR] Could not fetch data for AVAXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.968078+00:00 [ERROR] Could not fetch data for AGIXUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:57:03.969078+00:00 [ERROR] Could not fetch data for ALPHAUSDT: name 'fetch_multi_ohlcv' is not defined
+2025-07-06T20:59:24.003644+00:00 [ERROR] OMNIBRAIN ERROR: name 'agent_stats' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 535, in main_loop
+    agent_threshold = agent_stats.get(agent_name, {}).get("threshold", CONFIDENCE_THRESHOLD)
+                      ^^^^^^^^^^^
+NameError: name 'agent_stats' is not defined
+
+2025-07-06T21:00:03.230147+00:00 [ERROR] OMNIBRAIN ERROR: name 'agent_stats' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 535, in main_loop
+    agent_threshold = agent_stats.get(agent_name, {}).get("threshold", CONFIDENCE_THRESHOLD)
+                      ^^^^^^^^^^^
+NameError: name 'agent_stats' is not defined
+
+2025-07-06T21:00:42.303721+00:00 [ERROR] OMNIBRAIN ERROR: name 'agent_stats' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 535, in main_loop
+    agent_threshold = agent_stats.get(agent_name, {}).get("threshold", CONFIDENCE_THRESHOLD)
+                      ^^^^^^^^^^^
+NameError: name 'agent_stats' is not defined
+
+2025-07-06T21:06:48.193455+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:49.050937+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:49.299796+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:49.558077+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:49.808035+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:50.065621+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:50.318531+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:50.570536+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:50.834362+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:51.087955+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:51.341984+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:51.603742+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:51.876757+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:52.176360+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:52.446774+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:52.713763+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:53.012661+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:53.304898+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:53.575145+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:53.832865+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:54.101004+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:54.362834+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:54.625920+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:54.913719+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:55.196267+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:55.468150+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:55.769461+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:56.031574+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:56.327842+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:06:56.621308+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:24:29.744710+00:00 [ERROR] OMNIBRAIN ERROR: name 'get_top_symbols_by_volume' is not defined
+Traceback (most recent call last):
+  File "C:\Users\vlada\omnibrain\auto_trade_futures.py", line 510, in main_loop
+    top_symbols = get_top_symbols_by_volume(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'get_top_symbols_by_volume' is not defined
+
+2025-07-06T21:26:51.142071+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:51.992305+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:52.264204+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:52.519672+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:52.771671+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:53.067083+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:53.393885+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:53.725801+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:54.088157+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:54.453235+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:54.857684+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:55.271434+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:55.565757+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:55.842537+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:56.101737+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:56.374226+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:56.664464+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:56.927107+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:57.191378+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:57.468160+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:57.737464+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:57.998425+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:58.276189+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:58.551937+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:58.826335+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:59.104422+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:59.374965+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:59.633425+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:26:59.906178+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:27:00.189857+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:18.426098+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:19.246355+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:19.465736+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:19.683257+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:19.901158+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:20.143113+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:20.382486+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:20.628203+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:20.871453+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:21.116586+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:21.369610+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:21.589611+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:21.819824+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:22.092748+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:22.357907+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:22.594147+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:22.819413+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:23.046608+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:23.270113+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:23.504023+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:23.745364+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:23.997170+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:24.245496+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:24.507861+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:24.733835+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:24.952157+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:25.179923+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:25.440117+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:25.659330+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:33:25.912908+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:00.476715+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:00.698036+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:00.916865+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:01.130273+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:01.367318+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:01.607569+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:01.831458+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:02.067191+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:02.302751+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:02.553058+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:02.793822+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:03.036070+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:03.264002+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:03.506211+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:03.746008+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:03.964809+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:04.188011+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:04.407370+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:04.630394+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:04.876432+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:05.100875+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:05.363184+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:05.598645+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:05.830368+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:06.059227+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:06.284617+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:06.510302+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:06.734587+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:06.962396+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:07.202528+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:41.165243+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:41.382728+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:41.642371+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:41.927971+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:42.182426+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:42.418971+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:42.671094+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:42.910281+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:43.147585+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:43.402967+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:43.654425+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:43.898013+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:44.114837+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:44.354937+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:44.607182+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:44.830278+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:45.053770+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:45.279539+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:45.502574+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:45.722108+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:45.947414+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:46.180975+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:46.406832+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:46.630017+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:46.852078+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:47.077975+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:47.303085+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:47.539037+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:47.796681+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:34:48.026634+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:23.298844+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:23.515757+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:23.730827+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:23.951064+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:24.167206+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:24.386198+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:24.605637+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:24.863699+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:25.095061+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:25.321633+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:25.543507+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:25.768618+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:25.997180+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:26.224897+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:26.448173+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:26.667318+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:26.893429+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:27.147675+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:27.373238+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:27.605375+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:27.825905+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:28.047556+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:28.274790+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:28.493708+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:28.717384+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:28.936846+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:29.156913+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:29.381449+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:29.606775+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:35:29.824544+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:03.723975+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:03.936089+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:04.153800+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:04.371033+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:04.585190+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:04.801866+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:05.017221+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:05.234308+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:05.449312+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:05.668533+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:05.886745+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:06.101958+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:06.335654+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:06.574456+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:06.804348+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:07.018870+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:07.270711+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:07.528399+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:07.743503+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:07.983743+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:08.206998+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:08.428189+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:08.644130+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:08.859266+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:09.095307+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:09.312971+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:09.530803+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:09.773890+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:09.999824+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:10.212518+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:44.109277+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:44.322327+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:44.545900+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:44.758909+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:44.974650+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:45.190719+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:45.408333+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:45.621669+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:45.836730+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:46.055031+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:46.268404+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:46.484769+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:46.704420+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:46.920522+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:47.135867+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:47.350336+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:47.572990+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:47.790091+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:48.006759+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:48.222428+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:48.447168+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:48.663349+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:48.881441+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:49.104986+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:49.328725+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:49.542831+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:49.764561+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:49.981732+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:50.203517+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:36:50.422415+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:24.277953+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:24.495804+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:24.712472+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:24.930593+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:25.145335+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:25.358644+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:25.570694+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:25.782105+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:25.996495+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:26.212255+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:26.457430+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:26.671495+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:26.886591+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:27.101878+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:27.318964+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:27.533506+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:27.754416+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:27.968286+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:28.183349+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:28.399647+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:28.611789+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:28.825050+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:29.042274+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:29.253281+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:29.472825+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:29.688983+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:29.903063+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:30.121365+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:30.338086+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:37:30.559812+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:04.493391+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:04.701709+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:04.908646+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:05.124912+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:05.336853+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:05.551570+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:05.761102+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:05.972057+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:06.189096+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:06.417775+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:06.640925+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:06.854511+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:07.071897+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:07.286042+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:07.504530+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:07.721330+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:07.932431+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:08.150490+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:08.360896+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:08.575968+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:08.786155+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:09.000888+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:09.213246+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:09.450671+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:09.674815+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:09.893968+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:10.108664+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:10.326748+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:10.548884+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:10.767618+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:44.662397+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:45.475052+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:45.682188+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:45.898383+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:46.116004+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:46.326376+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:46.535552+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:46.746462+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:46.971041+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:47.201152+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:47.418510+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:47.655622+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:47.868250+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:48.083779+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:48.299689+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:48.517282+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:48.730609+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:48.942986+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:49.162690+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:49.382253+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:49.598368+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:49.816582+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:50.030296+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:50.244447+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:50.460824+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:50.673945+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:50.887034+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:51.101325+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:51.320347+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:38:51.537784+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:25.445479+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:25.662624+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:25.874784+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:26.088214+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:26.296950+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:26.505999+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:26.720318+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:26.939641+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:27.157863+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:27.370388+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:27.585570+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:27.808534+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:28.020830+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:28.238518+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:28.449923+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:28.667011+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:28.879756+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:29.097694+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:29.308800+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:29.524259+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:29.732460+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:29.945992+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:30.164711+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:30.377252+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:30.599268+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:30.830959+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:31.058444+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:31.271586+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:31.487096+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:39:31.699245+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:05.594106+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:05.808988+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:06.023429+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:06.235971+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:06.449639+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:06.660268+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:06.891297+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:07.112790+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:07.330679+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:07.551267+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:07.766903+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:07.985251+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:08.200433+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:08.413407+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:08.630283+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:08.844625+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:09.057894+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:09.270199+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:09.486929+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:09.701008+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:09.913172+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:10.124498+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:10.343889+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:10.554189+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:10.774783+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:10.987756+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:11.219476+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:11.449810+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:11.664946+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:11.882126+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:45.761249+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:45.972939+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:46.201048+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:46.414826+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:46.641289+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:46.851436+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:47.064742+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:47.284443+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:47.522599+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:47.736301+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:47.974146+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:48.188146+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:48.405079+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:48.627395+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:48.842703+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:49.083323+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:49.302745+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:49.529210+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:49.756265+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:49.973210+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:50.206881+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:50.426348+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:50.640576+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:50.856614+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:51.079841+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:51.313977+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:51.530095+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:51.774514+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:51.992934+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:40:52.205134+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:26.091982+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:26.315376+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:26.530366+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:26.742590+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:26.953801+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:27.164831+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:27.376107+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:27.594674+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:27.839949+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:28.053058+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:28.268122+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:28.483023+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:28.703561+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:28.916708+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:29.138001+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:29.351327+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:29.561424+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:29.777527+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:29.987886+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:30.205539+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:30.418817+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:30.638953+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:30.852107+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:31.066300+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:31.284212+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:31.499271+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:31.716023+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:31.928164+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:32.141342+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:41:32.357174+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:06.240771+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:06.450694+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:06.667546+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:06.885577+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:07.100217+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:07.319353+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:07.535286+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:07.750425+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:07.974850+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:08.196033+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:08.409953+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:08.624187+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:08.840165+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:09.056149+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:09.271322+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:09.488267+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:09.702008+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:09.913737+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:10.130733+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:10.346727+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:10.560618+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:10.778764+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:10.998078+00:00 [ERROR] Agent generate_signal failed on NEIROUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:11.214496+00:00 [ERROR] Agent generate_signal failed on AVAXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:11.451026+00:00 [ERROR] Agent generate_signal failed on LINKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:11.663182+00:00 [ERROR] Agent generate_signal failed on TRUMPUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:11.880261+00:00 [ERROR] Agent generate_signal failed on VIDTUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:12.099756+00:00 [ERROR] Agent generate_signal failed on BANANAS31USDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:12.319404+00:00 [ERROR] Agent generate_signal failed on AGIXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:12.537546+00:00 [ERROR] Agent generate_signal failed on SOONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:46.430360+00:00 [ERROR] Agent generate_signal failed on ALPACAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:46.645074+00:00 [ERROR] Agent generate_signal failed on 1000BONKUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:46.865133+00:00 [ERROR] Agent generate_signal failed on DOGEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:47.090073+00:00 [ERROR] Agent generate_signal failed on MYXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:47.309648+00:00 [ERROR] Agent generate_signal failed on 1000PEPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:47.529164+00:00 [ERROR] Agent generate_signal failed on HUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:47.742899+00:00 [ERROR] Agent generate_signal failed on TONUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:47.956209+00:00 [ERROR] Agent generate_signal failed on BNXUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:48.173872+00:00 [ERROR] Agent generate_signal failed on WIFUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:48.394281+00:00 [ERROR] Agent generate_signal failed on SUIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:48.631377+00:00 [ERROR] Agent generate_signal failed on FARTCOINUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:48.858468+00:00 [ERROR] Agent generate_signal failed on UNIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:49.088071+00:00 [ERROR] Agent generate_signal failed on PENGUUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:49.310238+00:00 [ERROR] Agent generate_signal failed on FUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:49.551760+00:00 [ERROR] Agent generate_signal failed on ADAUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:49.796675+00:00 [ERROR] Agent generate_signal failed on AAVEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:50.028994+00:00 [ERROR] Agent generate_signal failed on MOODENGUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:50.251115+00:00 [ERROR] Agent generate_signal failed on BCHUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:50.475390+00:00 [ERROR] Agent generate_signal failed on 1000FLOKIUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:50.695076+00:00 [ERROR] Agent generate_signal failed on HYPEUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:50.905639+00:00 [ERROR] Agent generate_signal failed on GUNUSDT: '<' not supported between instances of 'dict' and 'dict'
+2025-07-06T21:42:51.122591+00:00 [ERROR] Agent generate_signal failed on SAHARAUSDT: '<' not supported between instances of 'dict' and 'dict'

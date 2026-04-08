@@ -1,0 +1,13 @@
+{
+  "pnl_total": -1.19,
+  "equity_final": 98.80319765503491,
+  "wins": 0,
+  "losses": 2,
+  "winrate": 0.0,
+  "profit_factor": 0.0,
+  "max_drawdown": 1.1968023449650929,
+  "sharpe_like": 0.0,
+  "sortino_like": -19.1049731745428,
+  "trades_path": "backtests/backtest_20251007_002137/trades.csv",
+  "score": -1000000000.0
+}

@@ -1,0 +1,3 @@
+time,symbol,action,side,price,qty,agent,pnl,note
+2025-10-06T19:15:00+00:00,XRPUSDT,OPEN,BUY,3.04100000,301.070700,apex_supertrend_adaptive,0.00,conf=0.820
+2025-10-06T19:25:00+00:00,XRPUSDT,CLOSE,BUY,3.03280000,301.070700,apex_supertrend_adaptive,-2.47,HardUSDStop

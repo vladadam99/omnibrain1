@@ -1,0 +1,26 @@
+{
+  "symbols": [
+    "ETHUSDT",
+    "SOLUSDT",
+    "COAIUSDT",
+    "ALPACAUSDT",
+    "BNBUSDT",
+    "DOGEUSDT",
+    "ASTERUSDT",
+    "XRPUSDT",
+    "XPLUSDT",
+    "AIAUSDT"
+  ],
+  "tf": "5m",
+  "start": "2025-09-22T22:53:52+00:00",
+  "end": "2025-10-06T22:53:52+00:00",
+  "trades_path": "backtests/backtest_20251007_015303/trades.csv",
+  "equity_final": 92.67693613396375,
+  "pnl_total": -7.319999999999999,
+  "wins": 2,
+  "losses": 3,
+  "winrate": 0.4,
+  "profit_factor": 0.29411764705882354,
+  "max_drawdown": 8.413090497736661,
+  "open_left": []
+}

@@ -1,0 +1,5 @@
+time,symbol,action,side,price,qty,agent,pnl,note
+2025-10-06T19:20:00+00:00,XRPUSDT,OPEN,BUY,3.03660000,93.973523,apex_supertrend_adaptive,0.00,conf=0.624
+2025-10-06T19:30:00+00:00,XRPUSDT,CLOSE,BUY,3.02984000,93.973523,apex_supertrend_adaptive,-0.64,SL
+2025-10-06T21:45:00+00:00,BNBUSDT,OPEN,BUY,1227.18000000,0.232533,apex_supertrend_adaptive,0.00,conf=0.688
+2025-10-06T21:50:00+00:00,BNBUSDT,OPEN,BUY,1227.86000000,0.232404,apex_supertrend_adaptive,0.00,conf=0.688

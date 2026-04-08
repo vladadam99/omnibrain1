@@ -1,0 +1,79 @@
+# in web_ui/app.py (or wherever your Flask app lives)
+from flask import Flask, render_template
+import os, json
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    config_path = os.path.join(os.getcwd(), "config.json")
+    config = {}
+    if os.path.exists(config_path):
+        with open(config_path, "r") as f:
+            config = json.load(f)
+
+    # (Optional) if you want to pass a list of strategies for the backtest dropdown:
+    # from meta_governor import governor
+    # config['strategies'] = [{'name': a['name']} for a in governor.agents]
+
+    return render_template("index.html", config=config)
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OMNIBRAIN Control Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            text-align: center;
+            padding-top: 50px;
+        }
+        a.button {
+            display: inline-block;
+            background-color: #21262d;
+            border: 1px solid #30363d;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a.button:hover {
+            background-color: #30363d;
+            text-decoration: none;
+        }
+        /* Highlight primary action */
+        a.button.primary {
+            background-color: #238636;
+            color: white;
+            border-color: #2ea043;
+        }
+        a.button.primary:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧠 OMNIBRAIN: Command Center</h1>
+    <p>Welcome to the ultimate AI trading control panel.</p>
+    <p>
+        Mode: <strong>{{ '🧪 Paper Trading' if config.paper_trading else '💰 Live Trading' }}</strong><br>
+        Max Trades Per Day: <strong>{{ config.max_trades_per_day }}</strong>
+    </p>
+
+    <div>
+        <a class="button" href="/opt">📊 View Strategy Heatmap</a>
+        <a class="button" href="/logs">📜 Trade Logs</a>
+        <a class="button" href="/agent">🤖 Agent Status</a>
+        <a class="button" href="/config">⚙️ Configuration</a>
+        <a class="button" href="/trade">🧪 Mock Trade</a>
+        <!-- New Backtesting Button -->
+        <a class="button primary" href="/backtest">🚀 Backtesting</a>
+    </div>
+</body>
+</html>
+

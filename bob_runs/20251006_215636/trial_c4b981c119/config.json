@@ -1,0 +1,126 @@
+{
+  "quick_tp": 0.385,
+  "min_move": 0.0107,
+  "max_loss": 2.427,
+  "entry_ttl": 8,
+  "max_open": 3,
+  "alloc": 59.69,
+  "lev": 22.9,
+  "vote_head": "bayes",
+  "softmax_tau": 1.688,
+  "agent_conf_floors": {
+    "apex_vwap_pullback": 0.706,
+    "apex_microburst": 0.825,
+    "apex_sweep_reversal": 0.772,
+    "apex_supertrend_adaptive": 0.919,
+    "apex_momentum_pump": 0.94
+  },
+  "agent_weights": {
+    "apex_vwap_pullback": 0.906,
+    "apex_microburst": 0.985,
+    "apex_sweep_reversal": 1.427,
+    "apex_supertrend_adaptive": 1.371,
+    "apex_momentum_pump": 1.249
+  },
+  "agent_params": {
+    "apex_microburst": {
+      "VOL_SURGE": 1.164,
+      "EXP_MIN_ATR": 0.591,
+      "TP_ATR": 0.371,
+      "SL_ATR": 0.254,
+      "RR_MIN": 2.583
+    },
+    "apex_momentum_pump": {
+      "pre_bos_margin_atr": 0.228
+    },
+    "apex_vwap_pullback": {
+      "min_wick_dom": 0.397,
+      "min_body_ratio": 0.26,
+      "rr": 2.208
+    },
+    "apex_supertrend_adaptive": {
+      "RR_MIN": 2.167
+    },
+    "apex_sweep_reversal": {}
+  },
+  "hour_mask": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "conf_gain": 1.238,
+  "require_ema": 0,
+  "cooldown_bars": 4,
+  "rr_min": 1.596,
+  "sl_atr_mul": 0.871,
+  "tp_w_rr": 0.547,
+  "tp_w_band": 0.292,
+  "tp_w_imp": 0.155,
+  "engine": {
+    "LEVERAGE": 20.267,
+    "MIN_TRADE_USDT": 151.961,
+    "CONFIDENCE_THRESHOLD": 0.7839,
+    "MIN_EXPECTED_MOVE": 0.0054,
+    "TP_QUICK_PROFIT": 5.982,
+    "TP_SL_RR": 3.921,
+    "SL_ATR_MULT": 1.081,
+    "MAX_LOSS_PER_TRADE": 25.821,
+    "MAX_NEW_TRADES_PER_HOUR": 2,
+    "MAX_PORTFOLIO_SIZE": 3,
+    "MAX_SYMBOL_ALLOC": 0.1507,
+    "MAX_TOTAL_ALLOC": 0.6258,
+    "AGENT_MUTE_AFTER_LOSSES": 2,
+    "AGENT_MUTE_TIME": 2609,
+    "PAUSE_AFTER_PROFIT_SEC": 1485,
+    "HYBRID_SL_MODE": "trail",
+    "HYBRID_ARM_RR": 1.258,
+    "HYBRID_ARM_ATR": 1.0672,
+    "HYBRID_TRAIL_K": 1.2887,
+    "BREAKEVEN_AFTER_MIN": 1481,
+    "BREAKEVEN_EPS_FRAC": 0.3176
+  },
+  "wf_train_days": 0,
+  "wf_test_days": 0,
+  "wf_rolls": 0,
+  "_recipe_history": [],
+  "_recipe_used": {
+    "ema_gate": 1,
+    "vol_veto": 1,
+    "conf_logit": {
+      "a": 3.550730438920973,
+      "b": 0.13939718407435409
+    },
+    "tp_sl_blend": {
+      "rr_min": 2.278183829448919,
+      "w_rr": 0.5638907656833612,
+      "w_band": 0.20483379222415718,
+      "w_imp": 0.14987688838022772
+    },
+    "loss_mute_L": null,
+    "kelly": {
+      "cap": 0.013736848921986908,
+      "temper": 0.44255728944344724
+    }
+  }
+}

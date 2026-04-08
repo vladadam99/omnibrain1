@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OMNIBRAIN Dashboard</title>
+</head>
+<body>
+  <h1>OMNIBRAIN Dashboard</h1>
+  <p>Last updated: <span id="last-updated">--:--:-- UTC</span></p>
+  <button onclick="start()">Start</button>
+
+  <div id="price-ticker"></div>
+  <table id="metrics-table">
+    <thead>
+      <tr><th>Strategy</th><th>Return</th><th>Drawdown</th><th>Trades</th><th>Sharpe</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

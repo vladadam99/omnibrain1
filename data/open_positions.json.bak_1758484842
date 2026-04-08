@@ -1,0 +1,16 @@
+{
+    "GNSUSDT": {
+        "symbol": "GNSUSDT",
+        "side": "long",
+        "qty": 10,
+        "entry_time": "2025-06-26 02:25:05.715529+00:00",
+        "agent": "RSI"
+    },
+    "GPSUSDT": {
+        "symbol": "GPSUSDT",
+        "side": "long",
+        "qty": 10,
+        "entry_time": "2025-06-26 02:25:07.946870+00:00",
+        "agent": "RSI"
+    }
+}
